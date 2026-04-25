@@ -48,7 +48,7 @@
 \usepackage{xcolor}
 
 % === Thesis metadata =========================================================
-\title{Mobility-Aligned Phased Deployment of Urban BEV Fast-Charging Infrastructure: A Systematic Review and Research Framework}
+\title{ELECTRICAL VEHICLE FAST CHARGING PLANNING}
 \authors{Ehsan Sobhani}
 \addresses{}
 \date{April 2026}
@@ -2088,7 +2088,7 @@ The proposed research framework comprises three integrated stages that collectiv
 
 Each stage produces outputs that serve as direct inputs to the subsequent stage, creating a vertically integrated planning framework from city-scale spatial analysis to site-level implementation. The framework is designed to be applied to any metropolitan area with available origin-destination trip data, demographic data, land-use and zoning records, and grid infrastructure maps.
 
-\section{Stage A: Mobility-Corridor Spatial Unit Construction and Zoning Schema Comparison}
+\section{Stage A: Mobility-Corridor Spatial Unit Construction}
 
 Stage A addresses the foundational question of how to define the spatial frame for charging infrastructure planning. Two parallel activities constitute Stage A:
 
@@ -2160,72 +2160,52 @@ The proposed framework will be applied to at least one metropolitan study area m
 \bigskip\noindent\rule{\linewidth}{0.4pt}\bigskip
 
 
+\iffalse % ---- Chapter commented out ----
 \chapter{Expected Contributions and Timeline}
 
-\section{Expected Contributions}
+\#\#\# 7.1 Expected Contributions
 
 This dissertation produces five primary contributions, each directly resolving one of the identified research gaps:
 
-
-\noindent \textbf{Contribution 1, Mobility-Corridor Spatial Unit Methodology (Gap 1)}
-
+\textbf{Contribution 1, Mobility-Corridor Spatial Unit Methodology (Gap 1)}
 A validated method for constructing mobility-corridor spatial zones from origin-destination data, with a quantified spatial unit alignment score and demonstrated reduction in spatial demand estimation error relative to administrative TAZ baselines. This is the first methodology in the literature that directly questions and empirically tests the validity of the spatial frame for charging infrastructure planning.
 
-
-\noindent \textbf{Contribution 2, Zoning Schema Comparison Procedure (Gap 2)}
-
+\textbf{Contribution 2, Zoning Schema Comparison Procedure (Gap 2)}
 The first systematic comparative analysis of alternative zoning schemas for charging infrastructure siting, producing a replicable schema comparison procedure that quantifies the coverage, equity, cost, and utilization consequences of zoning schema design choices. This contribution provides evidence that has been entirely absent from the planning literature.
 
-
-\noindent \textbf{Contribution 3, Joint Equity-Utilization Optimization Model (Gap 3)}
-
+\textbf{Contribution 3, Joint Equity-Utilization Optimization Model (Gap 3)}
 A bi-objective optimization model with formal Pareto frontier characterization that simultaneously optimizes equity of spatial access and infrastructure utilization efficiency. The Pareto frontier provides planners with quantified tradeoff information, translating a political/ethical question (how much equity is worth how much efficiency?) into a technically grounded, reproducible analysis.
 
-
-\noindent \textbf{Contribution 4, Adaptive Phasing Decision Procedure (Gap 4)}
-
+\textbf{Contribution 4, Adaptive Phasing Decision Procedure (Gap 4)}
 A multi-stage stochastic programming model with adaptive phase-transition trigger criteria, validated against demand uncertainty scenarios, with quantified comparison to static single-period optimization. The decision procedure is operationally specified, defining when (trigger criteria) and how (reallocation rules) to advance from one deployment phase to the next.
 
-
-\noindent \textbf{Contribution 5, Meso-to-Micro Translation Protocol (Gap 5)}
-
+\textbf{Contribution 5, Meso-to-Micro Translation Protocol (Gap 5)}
 A formalized information translation protocol bridging meso-level rollout planning to micro-level site selection, with a validated site suitability scoring function and consistency score against real-world deployment decisions. This contribution closes the operational gap between planning and implementation that currently prevents rollout plans from being systematically operationalized.
 
-\section{Research Timeline}
+\#\#\# 7.2 Research Timeline
+
+\textbf{Table 7.1: Three-Year Research Timeline}
+
+| Phase | Year | Key Activities | Deliverables |
+|-------|------|----------------|--------------|
+| \textbf{Phase 1: Review and Stage A} | Year 1, Q1--Q3 | Complete systematic review; develop and validate corridor zone construction method; conduct zoning schema comparison | Systematic review paper (submitted); Stage A methodology paper (draft) |
+| \textbf{Phase 1: Stage A Completion} | Year 1, Q4 | Finalize spatial unit alignment score; validate against demand estimation error | Stage A paper (submitted) |
+| \textbf{Phase 2: Stage B Development} | Year 2, Q1--Q2 | Formulate bi-objective optimization model; compute Pareto frontier; begin multi-stage extension | Stage B model paper (draft) |
+| \textbf{Phase 2: Stage B Completion} | Year 2, Q3--Q4 | Complete adaptive phasing model; demand uncertainty experiments; comparison with static baseline | Stage B paper (submitted); conference presentations |
+| \textbf{Phase 3: Stage C Development} | Year 3, Q1--Q2 | Define translation protocol; develop site suitability scoring; protocol validation study | Stage C paper (draft) |
+| \textbf{Phase 3: Integration and Writing} | Year 3, Q3--Q4 | Full framework integration; case study validation; dissertation writing and defense | Dissertation manuscript; Stage C paper (submitted); defense |
+
+\#\#\# 7.3 Anticipated Venues for Publication
+
+- \textbf{Systematic review paper}: Transportation Research Part C: Emerging Technologies or Journal of Transport Geography
+- \textbf{Stage A paper}: Environment and Planning B: Urban Analytics and City Science or Computers, Environment and Urban Systems
+- \textbf{Stage B paper}: Transportation Science or European Journal of Operational Research
+- \textbf{Stage C paper}: Journal of the American Planning Association or Urban Studies
 
 
-\noindent \textbf{Table 7.1: Three-Year Research Timeline}
+---
 
-
-\begin{longtable}{L{4.5cm} L{3.5cm} L{2.5cm} L{4cm}}
-\toprule
-Phase & Year & Key Activities & Deliverables \\
-\midrule
-\endhead
-\textbf{Phase 1: Review and Stage A} & Year 1, Q1--Q3 & Complete systematic review; develop and validate corridor zone construction method; conduct zoning schema comparison & Systematic review paper (submitted); Stage A methodology paper (draft) \\
-\textbf{Phase 1: Stage A Completion} & Year 1, Q4 & Finalize spatial unit alignment score; validate against demand estimation error & Stage A paper (submitted) \\
-\textbf{Phase 2: Stage B Development} & Year 2, Q1--Q2 & Formulate bi-objective optimization model; compute Pareto frontier; begin multi-stage extension & Stage B model paper (draft) \\
-\textbf{Phase 2: Stage B Completion} & Year 2, Q3--Q4 & Complete adaptive phasing model; demand uncertainty experiments; comparison with static baseline & Stage B paper (submitted); conference presentations \\
-\textbf{Phase 3: Stage C Development} & Year 3, Q1--Q2 & Define translation protocol; develop site suitability scoring; protocol validation study & Stage C paper (draft) \\
-\textbf{Phase 3: Integration and Writing} & Year 3, Q3--Q4 & Full framework integration; case study validation; dissertation writing and defense & Dissertation manuscript; Stage C paper (submitted); defense \\
-\bottomrule
-\end{longtable}
-
-
-\section{Anticipated Venues for Publication}
-
-\begin{itemize}
-  \item \textbf{Systematic review paper}: Transportation Research Part C: Emerging Technologies or Journal of Transport Geography
-  \item \textbf{Stage A paper}: Environment and Planning B: Urban Analytics and City Science or Computers, Environment and Urban Systems
-  \item \textbf{Stage B paper}: Transportation Science or European Journal of Operational Research
-  \item \textbf{Stage C paper}: Journal of the American Planning Association or Urban Studies
-\end{itemize}
-
-
-
-\bigskip\noindent\rule{\linewidth}{0.4pt}\bigskip
-
-
+\fi % ---- end of commented-out chapter ----
 
 \nocite{*}
 \bibliographystyle{IEEEtran}

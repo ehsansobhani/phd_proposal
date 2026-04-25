@@ -40,12 +40,8 @@
 \contentsline {section}{\numberline {5.4}RQ4: Meso-to-Micro Site Translation (Gap 5)}{96}{section.44}%
 \contentsline {chapter}{\numberline {6}Proposed Research Framework}{98}{chapter.45}%
 \contentsline {section}{\numberline {6.1}Framework Overview}{98}{section.46}%
-\contentsline {section}{\numberline {6.2}Stage A: Mobility-Corridor Spatial Unit Construction and Zoning Schema Comparison}{98}{section.47}%
+\contentsline {section}{\numberline {6.2}Stage A: Mobility-Corridor Spatial Unit Construction}{98}{section.47}%
 \contentsline {section}{\numberline {6.3}Stage B: Joint Equity-Utilization Adaptive Phased Rollout Optimization}{99}{section.48}%
 \contentsline {section}{\numberline {6.4}Stage C: Meso-to-Micro Site Translation Protocol}{100}{section.49}%
 \contentsline {section}{\numberline {6.5}Comparison with Existing Approaches}{101}{section.50}%
 \contentsline {section}{\numberline {6.6}Study Area and Data Requirements}{101}{section.51}%
-\contentsline {chapter}{\numberline {7}Expected Contributions and Timeline}{103}{chapter.52}%
-\contentsline {section}{\numberline {7.1}Expected Contributions}{103}{section.53}%
-\contentsline {section}{\numberline {7.2}Research Timeline}{104}{section.54}%
-\contentsline {section}{\numberline {7.3}Anticipated Venues for Publication}{106}{section.55}%

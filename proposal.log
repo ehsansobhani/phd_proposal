@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.25)  25 APR 2026 12:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.25)  25 APR 2026 15:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1365,7 +1365,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 ------------------------------------------------------------------------------
  Title Page
 ------------------------------------------------------------------------------
-<Assets/YorkULogo.pdf, id=206, 275.62976pt x 289.08pt>
+<Assets/YorkULogo.pdf, id=190, 275.62976pt x 289.08pt>
 File: Assets/YorkULogo.pdf Graphic file (type pdf)
 <use Assets/YorkULogo.pdf>
 Package pdftex.def Info: Assets/YorkULogo.pdf  used on input line 60.
@@ -3570,38 +3570,23 @@ Overfull \hbox (16.28947pt too wide) in paragraph at lines 2100--2101
 
 [100]
 
-[101]
+[101] (proposal.bbl
 
 [102]
-Chapter 7.
-------------------------------------------------------------------------------
- 7 Expected Contributions and Timeline
-------------------------------------------------------------------------------
-
 
 [103
 
 ]
-Overfull \hbox (43.09187pt too wide) in alignment at lines 2200--2204
- [] [] [] [] 
- []
 
+[104]
 
-Overfull \hbox (43.09187pt too wide) in alignment at lines 2204--2212
- [] [] [] [] 
- []
+[105]
 
-
-
-[104] [105]
-
-[106] (proposal.bbl
+[106]
 
 [107]
 
-[108
-
-]
+[108]
 
 [109]
 
@@ -3631,19 +3616,9 @@ Overfull \hbox (43.09187pt too wide) in alignment at lines 2204--2212
 
 [122]
 
-[123]
+[123])
 
-[124]
-
-[125]
-
-[126]
-
-[127]
-
-[128])
-
-[129] (proposal.aux)
+[124] (proposal.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
@@ -3653,14 +3628,14 @@ L3 programming layer <2025-07-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 7FF776E2CCCB58145441B08D6EA57585;12290.
+(rerunfilecheck)             Checksum: A1ACE0071959809B4C7BC272E220492A;11277.
  ) 
 Here is how much of TeX's memory you used:
- 31658 strings out of 468134
- 579501 string characters out of 5440816
- 1203890 words of memory out of 5000000
- 58990 multiletter control sequences out of 15000+600000
- 724790 words of font info for 256 fonts, out of 8000000 for 9000
+ 31645 strings out of 468134
+ 579382 string characters out of 5440816
+ 1202898 words of memory out of 5000000
+ 58985 multiletter control sequences out of 15000+600000
+ 724887 words of font info for 257 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,12n,107p,1331b,862s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/M
@@ -3672,9 +3647,9 @@ lic/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C
 Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/ty
 pe1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.
 pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on proposal.pdf (136 pages, 742068 bytes).
+Output written on proposal.pdf (131 pages, 730080 bytes).
 PDF statistics:
- 1502 PDF objects out of 1728 (max. 8388607)
- 412 named destinations out of 1000 (max. 500000)
- 50082 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1457 PDF objects out of 1728 (max. 8388607)
+ 402 named destinations out of 1000 (max. 500000)
+ 50050 words of extra memory for PDF output out of 51595 (max. 10000000)
 

@@ -1257,7 +1257,7 @@ The proposed research framework comprises three integrated stages that collectiv
 
 Each stage produces outputs that serve as direct inputs to the subsequent stage, creating a vertically integrated planning framework from city-scale spatial analysis to site-level implementation. The framework is designed to be applied to any metropolitan area with available origin-destination trip data, demographic data, land-use and zoning records, and grid infrastructure maps.
 
-### 6.2 Stage A: Mobility-Corridor Spatial Unit Construction and Zoning Schema Comparison
+### 6.2 Stage A: Mobility-Corridor Spatial Unit Construction
 
 Stage A addresses the foundational question of how to define the spatial frame for charging infrastructure planning. Two parallel activities constitute Stage A:
 
