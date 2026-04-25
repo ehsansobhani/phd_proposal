@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: proposal.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: IEEEtran.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'field_info' (item size: 4) to 12314 items.
+Database file #1: references.bib
+Warning--I didn't find a database entry for "joint_planning_2023"
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+You've used 200 entries,
+            4087 wiz_defined-function locations,
+            1713 strings with 53017 characters,
+and the built_in function-call counts, 101951 in all, are:
+= -- 8146
+> -- 3353
+< -- 0
++ -- 1582
+- -- 791
+* -- 4778
+:= -- 17728
+add.period$ -- 400
+call.type$ -- 200
+change.case$ -- 306
+chr.to.int$ -- 0
+cite$ -- 200
+duplicate$ -- 8071
+empty$ -- 8503
+format.name$ -- 980
+if$ -- 22715
+int.to.chr$ -- 0
+int.to.str$ -- 200
+missing$ -- 1913
+newline$ -- 839
+num.names$ -- 200
+pop$ -- 5322
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 7550
+stack$ -- 0
+substring$ -- 412
+swap$ -- 5101
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 200
+warning$ -- 0
+while$ -- 200
+width$ -- 203
+write$ -- 2050
+(There was 1 warning)
