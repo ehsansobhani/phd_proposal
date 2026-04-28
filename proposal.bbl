@@ -44,6 +44,14 @@ N.~Jiang, Y.~Zhou, J.~A. Taylor, and M.~Alizadeh, ``Pricing electric vehicle
   \url{https://arxiv.org/abs/2604.15227v1}
 \BIBentrySTDinterwordspacing
 
+\bibitem{regional_transportation_2026}
+\BIBentryALTinterwordspacing
+I.~Babur and J.~Macfarlane, ``Regional transportation modeling for equitable
+  electric vehicle charging infrastructure design,'' arXiv preprint, 2026,
+  arXiv:2601.22395v1. [Online]. Available:
+  \url{https://arxiv.org/abs/2601.22395v1}
+\BIBentrySTDinterwordspacing
+
 \bibitem{simultaneous_optimization_2026}
 \BIBentryALTinterwordspacing
 J.~P. Bertucci, T.~Hofman, and M.~Salazar, ``Simultaneous optimization of
@@ -80,6 +88,14 @@ Z.~Yu, X.~Hu, and Q.~Wang, ``A joint planning model for fixed and mobile
   \url{https://arxiv.org/abs/2507.17587v1}
 \BIBentrySTDinterwordspacing
 
+\bibitem{a_multi-modal_2025}
+\BIBentryALTinterwordspacing
+O.~Karakuş and P.~Corcoran, ``A multi-modal spatial risk framework for ev
+  charging infrastructure using remote sensing,'' arXiv preprint, 2025,
+  arXiv:2506.19860v1. [Online]. Available:
+  \url{https://arxiv.org/abs/2506.19860v1}
+\BIBentrySTDinterwordspacing
+
 \bibitem{a_spatially_2025}
 Y.~Huang, H.~Ren, X.~Jia, X.~Yu, D.~Xie, Y.~Zou, D.~Chen, and Y.~Yang, ``A
   spatially aware machine learning method for locating electric vehicle
@@ -96,6 +112,14 @@ T.~Kinchen, P.~Typaldos, and A.~A. Malikopoulos, ``A united framework for
   planning electric vehicle charging accessibility,'' arXiv preprint, 2025,
   arXiv:2508.05827v1. [Online]. Available:
   \url{https://arxiv.org/abs/2508.05827v1}
+\BIBentrySTDinterwordspacing
+
+\bibitem{an_exact_2025}
+\BIBentryALTinterwordspacing
+M.~Nankali and M.~W. Levin, ``An exact solution algorithm for the bi-level
+  optimization problem of electric vehicles charging station placement,'' arXiv
+  preprint, 2025, arXiv:2511.19884v2. [Online]. Available:
+  \url{https://arxiv.org/abs/2511.19884v2}
 \BIBentrySTDinterwordspacing
 
 \bibitem{analyzing_locational_2025}
@@ -226,13 +250,6 @@ D.~Xia, L.~Yang, Y.~Lu, and S.~S. Azadeh, ``Robust charging station location
   \url{https://arxiv.org/abs/2504.04408v1}
 \BIBentrySTDinterwordspacing
 
-\bibitem{synergistic_development_2025}
-\BIBentryALTinterwordspacing
-S.~Pimpale, ``Synergistic development of cybersecurity and functional safety
-  for smart electric vehicles,'' arXiv preprint, 2025, arXiv:2511.07713v1.
-  [Online]. Available: \url{https://arxiv.org/abs/2511.07713v1}
-\BIBentrySTDinterwordspacing
-
 \bibitem{trajectory-integrated_accessibility_2025}
 \BIBentryALTinterwordspacing
 Y.~Ju, J.~Wu, Z.~Su, L.~Li, J.~Zhao, M.~C. González, and S.~J. Moura,
@@ -240,6 +257,11 @@ Y.~Ju, J.~Wu, Z.~Su, L.~Li, J.~Zhao, M.~C. González, and S.~J. Moura,
   charging stations,'' arXiv preprint, 2025, arXiv:2505.12145v1. [Online].
   Available: \url{https://arxiv.org/abs/2505.12145v1}
 \BIBentrySTDinterwordspacing
+
+\bibitem{a_multi-objective_2024}
+H.~Zhang and F.~Shi, ``A multi-objective site selection of electric vehicle
+  charging station based on nsga-ii,'' \emph{International Journal of
+  Industrial Engineering Computations}, 2024.
 
 \bibitem{a_particle_2024}
 M.~Aljaidi, G.~Samara, M.~K. Singla, A.~Alsarhan, M.~Hassan, M.~Safaraliev,
@@ -260,11 +282,6 @@ T.~Wu, E.~Fainman, Y.~Maïzi, J.~Shu, and Y.~Li, ``Allocate electric
   vehicles’ public charging stations with charging demand uncertainty,''
   \emph{Transportation Research Part D: Transport and Environment}, 2024.
 
-\bibitem{a_multi-objective_2024}
-H.~Zhang and F.~Shi, ``A multi-objective site selection of electric vehicle
-  charging station based on nsga-ii,'' \emph{International Journal of
-  Industrial Engineering Computations}, 2024.
-
 \bibitem{battery_swapping_2024}
 \BIBentryALTinterwordspacing
 G.~Liu, Y.~Zhang, T.~Ming, and C.~Yu, ``Battery swapping station location for
@@ -273,10 +290,13 @@ G.~Liu, Y.~Zhang, T.~Ming, and C.~Yu, ``Battery swapping station location for
   \url{https://arxiv.org/abs/2412.15233v1}
 \BIBentrySTDinterwordspacing
 
-\bibitem{planning_of_2024}
-J.~Lin, J.~Qiu, Y.~Tao, and X.~Sun, ``Planning of electric vehicle charging
-  stations with pv and energy storage using a fuzzy inference system,''
-  \emph{IEEE Transactions on Transportation Electrification}, 2024.
+\bibitem{beyond_profit_2024}
+\BIBentryALTinterwordspacing
+S.~Wang and J.~Lin, ``Beyond profit: A multi-objective framework for electric
+  vehicle charging station operations,'' arXiv preprint, 2024,
+  arXiv:2407.01536v1. [Online]. Available:
+  \url{https://arxiv.org/abs/2407.01536v1}
+\BIBentrySTDinterwordspacing
 
 \bibitem{charging_station_2024}
 L.~Cai, J.~Li, H.~Zhu, C.~Yang, J.~Yan, Q.~Xu, and X.~Zou, ``Charging station
@@ -284,11 +304,10 @@ L.~Cai, J.~Li, H.~Zhu, C.~Yang, J.~Yan, Q.~Xu, and X.~Zou, ``Charging station
   account time-window and load constraints,'' \emph{World Electric Vehicle
   Journal}, 2024.
 
-\bibitem{electric_vehicle_2024}
-Z.~Li, M.~Chowdhury, and P.~Bhavsar, ``Electric vehicle charging infrastructure
-  optimization incorporating demand forecasting and renewable energy
-  application,'' \emph{World Journal of Innovation and Modern Technology},
-  2024.
+\bibitem{energy_management_2024}
+Y.~Cao and M.~Zhou, ``Energy management optimization of hybrid electric
+  vehicles based on deep learning model predictive control,'' \emph{Intelligent
+  Decision Technologies}, 2024.
 
 \bibitem{integrating_en_2024}
 \BIBentryALTinterwordspacing
@@ -303,10 +322,11 @@ A.~Mohammed, O.~Saif, M.~A. Abo‑Adma, and R.~Elazab, ``Multiobjective
   optimization for sizing and placing electric vehicle charging stations
   considering comprehensive uncertainties,'' \emph{Energy Informatics}, 2024.
 
-\bibitem{optimizing_electric_2024}
-H.~K. Channi, ``Optimizing electric vehicle charging infrastructure: A site
-  selection strategy for ludhiana, india,'' \emph{Mechatronics and Intelligent
-  Transportation Systems}, 2024.
+\bibitem{optimal_electric_2024}
+P.~Kumar and H.~K. Channi, ``Optimal electric vehicle charging station
+  placement: A multi-criteria decision-making approach for site selection,''
+  \emph{2024 International Conference on Integrated Circuits and Communication
+  Systems (ICICACS)}, 2024.
 
 \bibitem{optimal_ev_2024}
 \BIBentryALTinterwordspacing
@@ -322,10 +342,22 @@ B.~He, B.~Yang, Y.~Han, Y.~Zhou, Y.~Hu, H.~Shu, S.~Su, J.~Yang, Y.~Huang,
   distribution of charging demand forecasting and traffic-grid coupling,''
   \emph{Energy}, 2024.
 
+\bibitem{optimal_planning_2024}
+J.~Heo and S.~Chang, ``Optimal planning for electric vehicle fast charging
+  stations placements in a city scale using an advantage actor-critic deep
+  reinforcement learning and geospatial analysis,'' \emph{Sustainable Cities
+  and Society}, 2024.
+
 \bibitem{optimization_strategies_2024}
 S.~Panyaram, ``Optimization strategies for efficient charging station
   deployment in urban and rural networks,'' \emph{FMDB Transactions on
   Sustainable Environmental Sciences}, 2024.
+
+\bibitem{optimizing_ev_2024}
+J.~Huang and X.~Zhou, ``Optimizing ev charging station placement in new south
+  wales: A soft actor-critic reinforcement learning approach,'' \emph{2024 5th
+  International Conference on Computer Engineering and Application (ICCEA)},
+  2024.
 
 \bibitem{optimizing_urban_2024}
 S.~Munawar, ``Optimizing urban logistics through electric vehicle
@@ -481,6 +513,11 @@ P.~Mishra, E.~Miller, S.~Santhanagopalan, K.~Bennion, and A.~Meintz, ``A
   framework to analyze the requirements of a multiport megawatt-level charging
   station for heavy-duty electric vehicles,'' \emph{Energies}, 2022.
 
+\bibitem{a_novel_2022}
+Y.-C. Hung and G.~Michailidis, ``A novel data-driven approach for solving the
+  electric vehicle charging station location-routing problem,'' \emph{IEEE
+  Transactions on Intelligent Transportation Systems}, 2022.
+
 \bibitem{designing_an_2022}
 \BIBentryALTinterwordspacing
 N.~Amilia, Z.~Palinrungi, I.~Vanany, and M.~Arief, ``Designing an optimized
@@ -513,6 +550,12 @@ M.~Mousavi, L.~L. Qi, A.~Brissette, and M.~Wu, ``Ev charging station wholesale
   preprint, 2022, arXiv:2209.05658v1. [Online]. Available:
   \url{https://arxiv.org/abs/2209.05658v1}
 \BIBentrySTDinterwordspacing
+
+\bibitem{optimal_placement_2022}
+D.~Srinivas and M.~R. Reddy, ``Optimal placement of electric vehicle charging
+  station by considering dynamic loads in radial distribution system,''
+  \emph{2022 International Conference on Automation, Computing and Renewable
+  Systems (ICACRS)}, 2022.
 
 \bibitem{optimising_electric_2022}
 \BIBentryALTinterwordspacing
@@ -587,6 +630,21 @@ F.~B. Hüttel, I.~Peled, F.~Rodrigues, and F.~C. Pereira, ``Deep
   \url{https://arxiv.org/abs/2106.10940v1}
 \BIBentrySTDinterwordspacing
 
+\bibitem{energy-optimal_design_2021}
+\BIBentryALTinterwordspacing
+J.~van~den Hurk and M.~Salazar, ``Energy-optimal design and control of electric
+  vehicles' transmissions,'' arXiv preprint, 2021, arXiv:2105.05119v1.
+  [Online]. Available: \url{https://arxiv.org/abs/2105.05119v1}
+\BIBentrySTDinterwordspacing
+
+\bibitem{hierarchical_optimization_2021}
+\BIBentryALTinterwordspacing
+A.~Mirheli and L.~Hajibabai, ``Hierarchical optimization of electric vehicle
+  charging infrastructure design and facility logistics,'' arXiv preprint,
+  2021, arXiv:2105.10557v1. [Online]. Available:
+  \url{https://arxiv.org/abs/2105.10557v1}
+\BIBentrySTDinterwordspacing
+
 \bibitem{joint_optimization_2021}
 \BIBentryALTinterwordspacing
 J.~Luke, M.~Salazar, R.~Rajagopal, and M.~Pavone, ``Joint optimization of
@@ -609,6 +667,14 @@ H.~Hou, J.~Tang, B.~Zhao, L.~Zhang, Y.~Wang, and C.~Xie, ``Optimal planning of
   electric vehicle charging station considering mutual benefit of users and
   power grid,'' \emph{World Electric Vehicle Journal}, 2021.
 
+\bibitem{reducing_waiting_2021}
+\BIBentryALTinterwordspacing
+S.~Schoenberg and F.~Dressler, ``Reducing waiting times at charging stations
+  with adaptive electric vehicle route planning,'' arXiv preprint, 2021,
+  arXiv:2102.06503v1. [Online]. Available:
+  \url{https://arxiv.org/abs/2102.06503v1}
+\BIBentrySTDinterwordspacing
+
 \bibitem{siting_and_2021}
 R.~Ahadi, W.~Ketter, J.~Collins, and N.~Daina, ``Siting and sizing of charging
   infrastructure for shared autonomous electric fleets,'' \emph{International
@@ -621,6 +687,10 @@ R.~Bayani, A.~F. Soofi, and S.~D. Manshadi, ``Strategic competition of electric
   preprint, 2021, arXiv:2111.11592v1. [Online]. Available:
   \url{https://arxiv.org/abs/2111.11592v1}
 \BIBentrySTDinterwordspacing
+
+\bibitem{a_method_2020}
+D.~Rizopoulos and D.~Esztergár-Kiss, ``A method for the optimization of daily
+  activity chains including electric vehicles,'' \emph{Energies}, 2020.
 
 \bibitem{double-layer_game_2020}
 \BIBentryALTinterwordspacing
@@ -640,6 +710,19 @@ D.~Yang, N.~J.~S. Sarma, M.~Hyland, and R.~Jayakrishnan, ``Dynamic modeling and
 \bibitem{location_of_2020}
 G.~Brandstätter, M.~Leitner, and I.~Ljubić, ``Location of charging stations
   in electric car sharing systems,'' \emph{Transportation Science}, 2020.
+
+\bibitem{optimal_fast_2020}
+\BIBentryALTinterwordspacing
+T.-Y. Ma and S.~Xie, ``Optimal fast charging station locations for electric
+  ridesharing service with online vehicle-charging station assignment,'' arXiv
+  preprint, 2020, arXiv:2008.05949v2. [Online]. Available:
+  \url{https://arxiv.org/abs/2008.05949v2}
+\BIBentrySTDinterwordspacing
+
+\bibitem{optimizing_the_2020}
+A.~GORBUNOVA and I.~ANISIMOV, ``Optimizing the location of urban charging
+  stations for electric vehicles: Case study of the city of tyumen, russian
+  federation,'' \emph{WIT Transactions on The Built Environment}, 2020.
 
 \bibitem{resource_aware_2020}
 \BIBentryALTinterwordspacing
@@ -759,6 +842,95 @@ A.~Y.~S. Lam, Y.-W. Leung, and X.~Chu, ``Electric vehicle charging station
   \url{https://arxiv.org/abs/1310.6925v3}
 \BIBentrySTDinterwordspacing
 
+\bibitem{socially_optimal_2013}
+\BIBentryALTinterwordspacing
+E.~Yudovina and G.~Michailidis, ``Socially optimal charging strategies for
+  electric vehicles,'' arXiv preprint, 2013, arXiv:1304.2329v1. [Online].
+  Available: \url{https://arxiv.org/abs/1304.2329v1}
+\BIBentrySTDinterwordspacing
+
+\bibitem{a_density-based_2025}
+H.~Ameer, Y.~Wang, and Z.~Chen, ``A density-based spatial clustering and linear
+  programming method for electric vehicle charging station location and price
+  optimization,'' \emph{Energy}, 2025.
+
+\bibitem{fairness-oriented_charging_2025}
+S.~Yuan, J.~Fu, and X.~Ma, ``Fairness-oriented charging station location
+  optimization driven by deep reinforcement learning,'' \emph{IEEE Access},
+  2025.
+
+\bibitem{predicting_optimal_2025}
+A.~Mousaei and Y.~Naderi, ``Predicting optimal placement of electric vehicle
+  charge stations using machine learning: A case study in glasgow, uk,''
+  \emph{2025 12th Iranian Conference on Renewable Energies and Distributed
+  Generation (ICREDG)}, 2025.
+
+\bibitem{a_data-driven_2024}
+Y.~Zhang and J.~Tan, ``A data-driven approach of layout evaluation for electric
+  vehicle charging infrastructure using agent-based simulation and gis,''
+  \emph{SIMULATION}, 2024.
+
+\bibitem{a_two-layer_2024}
+C.~Wu, Y.~Wang, Q.~Shi, and S.~Gao, ``A two-layer planning method for location
+  and capacity determination of public electric vehicle charging stations,''
+  \emph{International Journal of Electrical Power \&amp; Energy Systems}, 2024.
+
+\bibitem{advancing_urban_2024}
+Z.~Zhang, Z.~Chen, E.~Gümrükcü, Z.~Ji, F.~Ponci, and A.~Monti, ``Advancing
+  urban electric vehicle charging stations: Ai-driven day-ahead optimization of
+  pricing and nudge strategies utilizing multi-agent deep reinforcement
+  learning,'' \emph{eTransportation}, 2024.
+
+\bibitem{electric_vehicle_2024}
+Z.~Li, M.~Chowdhury, and P.~Bhavsar, ``Electric vehicle charging infrastructure
+  optimization incorporating demand forecasting and renewable energy
+  application,'' \emph{World Journal of Innovation and Modern Technology},
+  2024.
+
+\bibitem{spap_simultaneous_2023}
+Y.~Wang, D.~Zhao, Y.~Ren, D.~Zhang, and H.~Ma, ``Spap: Simultaneous demand
+  prediction and planning for electric vehicle chargers in a new city,''
+  \emph{ACM Transactions on Knowledge Discovery from Data}, 2023.
+
+\bibitem{engineering_and_2018}
+\BIBentryALTinterwordspacing
+C.~Luo, ``Engineering and economic analysis for electric vehicle charging
+  infrastructure --- placement, pricing, and market design,'' arXiv preprint,
+  2018, arXiv:1808.03897v1. [Online]. Available:
+  \url{https://arxiv.org/abs/1808.03897v1}
+\BIBentrySTDinterwordspacing
+
+\bibitem{placement_of_2018}
+\BIBentryALTinterwordspacing
+C.~Luo, Y.-F. Huang, and V.~Gupta, ``Placement of ev charging stations ---
+  balancing benefits among multiple entities,'' arXiv preprint, 2018,
+  arXiv:1801.02129v1. [Online]. Available:
+  \url{https://arxiv.org/abs/1801.02129v1}
+\BIBentrySTDinterwordspacing
+
+\bibitem{charging_games_2015}
+\BIBentryALTinterwordspacing
+O.~Beaude, S.~Lasaulce, and M.~Hennebel, ``Charging games in networks of
+  electrical vehicles,'' arXiv preprint, 2015, arXiv:1509.07349v1. [Online].
+  Available: \url{https://arxiv.org/abs/1509.07349v1}
+\BIBentrySTDinterwordspacing
+
+\bibitem{minimizing_the_2015}
+\BIBentryALTinterwordspacing
+O.~Beaude, S.~Lasaulce, M.~Hennebel, and J.~Daafouz, ``Minimizing the impact of
+  ev charging on the electricity distribution network,'' arXiv preprint, 2015,
+  arXiv:1509.07332v1. [Online]. Available:
+  \url{https://arxiv.org/abs/1509.07332v1}
+\BIBentrySTDinterwordspacing
+
+\bibitem{electric_vehicle_0}
+\BIBentryALTinterwordspacing
+Z.~Li, M.~Chowdhury, and P.~Bhavsar, ``Electric vehicle charging infrastructure
+  optimization incorporating demand forecasting and renewable energy
+  application,'' 0. [Online]. Available:
+  \url{https://doi.org/10.20944/preprints202508.1268.v1}
+\BIBentrySTDinterwordspacing
+
 \bibitem{an_equity-based_2025}
 S.~Jha, A.~Pani, H.~Puppala, V.~Varghese, and A.~Unnikrishnan, ``An
   equity-based approach for addressing inequality in electric vehicle charging
@@ -799,30 +971,6 @@ D.~Jiang, X.~Gong, Y.~Wei, B.~Peng, and Z.~Xu, ``An electric vehicle charging
   demand prediction approach based on a graph-based spatio-temporal attention
   network,'' \emph{Sustainable Energy, Grids and Networks}, 2025.
 
-\bibitem{grid-constrained_online_2024}
-\BIBentryALTinterwordspacing
-E.~van Huffelen, R.~Brouwer, and M.~van~den Akker, ``Grid-constrained online
-  scheduling of flexible electric vehicle charging,'' arXiv preprint, 2024,
-  arXiv:2403.03109v1. [Online]. Available:
-  \url{https://arxiv.org/abs/2403.03109v1}
-\BIBentrySTDinterwordspacing
-
-\bibitem{optimizing_energy_2024}
-V.~Fernandez, V.~Pérez, and R.~Roig, ``Optimizing energy supply for full
-  electric vehicles in smart cities: A comprehensive mobility network model,''
-  \emph{World Electric Vehicle Journal}, 2024.
-
-\bibitem{policy_interventions_2024}
-S.~Makaremi, ``Policy interventions and urban characteristics in modeling
-  electric vehicle charging infrastructure utilization,'' \emph{Case Studies on
-  Transport Policy}, 2024.
-
-\bibitem{fleet_sizing_2023}
-J.~Yang, M.~W. Levin, L.~Hu, H.~Li, and Y.~Jiang, ``Fleet sizing and charging
-  infrastructure design for electric autonomous mobility-on-demand systems with
-  endogenous congestion and limited link space,'' \emph{Transportation Research
-  Part C: Emerging Technologies}, 2023.
-
 \bibitem{m-bev_masked_2023}
 \BIBentryALTinterwordspacing
 S.~Chen, Y.~Ma, Y.~Qiao, and Y.~Wang, ``M-bev: Masked bev perception for robust
@@ -830,12 +978,12 @@ S.~Chen, Y.~Ma, Y.~Qiao, and Y.~Wang, ``M-bev: Masked bev perception for robust
   Available: \url{https://arxiv.org/abs/2312.12144v1}
 \BIBentrySTDinterwordspacing
 
-\bibitem{analysis_of_2022}
+\bibitem{on-demand_valet_2021}
 \BIBentryALTinterwordspacing
-C.~Hecht, J.~Figgener, and D.~U. Sauer, ``Analysis of electric vehicle charging
-  station usage and profitability in germany based on empirical data,'' arXiv
-  preprint, 2022, arXiv:2206.09582v1. [Online]. Available:
-  \url{https://arxiv.org/abs/2206.09582v1}
+Z.~Lai and S.~Li, ``On-demand valet charging for electric vehicles: Economic
+  equilibrium, infrastructure planning and regulatory incentives,'' arXiv
+  preprint, 2021, arXiv:2106.08162v2. [Online]. Available:
+  \url{https://arxiv.org/abs/2106.08162v2}
 \BIBentrySTDinterwordspacing
 
 \bibitem{securing_the_2021}
@@ -846,28 +994,6 @@ R.~Metere, M.~Neaimeh, C.~Morisset, C.~Maple, X.~Bellekens, and R.~M. Czekster,
   \url{https://arxiv.org/abs/2105.02905v3}
 \BIBentrySTDinterwordspacing
 
-\bibitem{the_electric_2021}
-\BIBentryALTinterwordspacing
-Y.~Liang, S.~Dabia, and Z.~Luo, ``The electric vehicle routing problem with
-  nonlinear charging functions,'' arXiv preprint, 2021, arXiv:2108.01273v1.
-  [Online]. Available: \url{https://arxiv.org/abs/2108.01273v1}
-\BIBentrySTDinterwordspacing
-
-\bibitem{load_forecasting_2019}
-\BIBentryALTinterwordspacing
-Z.~Liu, Y.~Xie, D.~Feng, Y.~Zhou, S.~Shi, and C.~Fang, ``Load forecasting model
-  and day-ahead operation strategy for city-located ev quick charge stations,''
-  arXiv preprint, 2019, arXiv:1909.00971v1. [Online]. Available:
-  \url{https://arxiv.org/abs/1909.00971v1}
-\BIBentrySTDinterwordspacing
-
-\bibitem{scalable_electric_2015}
-\BIBentryALTinterwordspacing
-L.~Zhang, V.~Kekatos, and G.~B. Giannakis, ``Scalable electric vehicle charging
-  protocols,'' arXiv preprint, 2015, arXiv:1510.00403v2. [Online]. Available:
-  \url{https://arxiv.org/abs/1510.00403v2}
-\BIBentrySTDinterwordspacing
-
 \bibitem{smart_vehicle_2015}
 \BIBentryALTinterwordspacing
 L.~Zuccaro, A.~D. Giorgio, F.~Liberati, S.~Canale, A.~Lanna, V.~F. Pallares,
@@ -876,14 +1002,6 @@ L.~Zuccaro, A.~D. Giorgio, F.~Liberati, S.~Canale, A.~Lanna, V.~F. Pallares,
   architecture and field test results,'' arXiv preprint, 2015,
   arXiv:1503.01266v1. [Online]. Available:
   \url{https://arxiv.org/abs/1503.01266v1}
-\BIBentrySTDinterwordspacing
-
-\bibitem{a_dynamic_2011}
-\BIBentryALTinterwordspacing
-N.~Taheri, R.~Entriken, and Y.~Ye, ``A dynamic algorithm for facilitated
-  charging of plug-in electric vehicles,'' arXiv preprint, 2011,
-  arXiv:1112.0697v1. [Online]. Available:
-  \url{https://arxiv.org/abs/1112.0697v1}
 \BIBentrySTDinterwordspacing
 
 \bibitem{stochastic_behavior_2025}
@@ -963,18 +1081,31 @@ Z.~Liang, T.~Qian, M.~Korkali, R.~Glatt, and Q.~Hu, ``A vehicle-to-grid
   planning framework incorporating electric vehicle user equilibrium and
   distribution network flexibility enhancement,'' \emph{Applied Energy}, 2024.
 
-\bibitem{beyond_profit_2024}
-\BIBentryALTinterwordspacing
-S.~Wang and J.~Lin, ``Beyond profit: A multi-objective framework for electric
-  vehicle charging station operations,'' arXiv preprint, 2024,
-  arXiv:2407.01536v1. [Online]. Available:
-  \url{https://arxiv.org/abs/2407.01536v1}
-\BIBentrySTDinterwordspacing
+\bibitem{charging_infrastructure_2024}
+Z.~Zhang, J.~Liu, J.~P. Bastidas, and S.~Jones, ``Charging infrastructure
+  assessment for shared autonomous electric vehicles in 374 small and
+  medium-sized urban areas: An agent-based simulation approach,''
+  \emph{Transport Policy}, 2024.
+
+\bibitem{equilibrium_configuration_2024}
+Z.~Wang, L.~Zhang, W.~Tang, Z.~Ma, and J.~Huang, ``Equilibrium configuration
+  strategy of vehicle-to-grid-based electric vehicle charging stations in
+  low-carbon resilient distribution networks,'' \emph{Applied Energy}, 2024.
 
 \bibitem{locating_and_2024}
 D.~Hu, L.~Huang, C.~Liu, and Z.-W. Liu, ``Locating and sizing charging station
   in multi-period to promote electric vehicles adoption in urban areas,''
   \emph{Energy Reports}, 2024.
+
+\bibitem{optimizing_electric_2024}
+H.~K. Channi, ``Optimizing electric vehicle charging infrastructure: A site
+  selection strategy for ludhiana, india,'' \emph{Mechatronics and Intelligent
+  Transportation Systems}, 2024.
+
+\bibitem{planning_of_2024}
+J.~Lin, J.~Qiu, Y.~Tao, and X.~Sun, ``Planning of electric vehicle charging
+  stations with pv and energy storage using a fuzzy inference system,''
+  \emph{IEEE Transactions on Transportation Electrification}, 2024.
 
 \bibitem{risk-aware_hierarchical_2024}
 X.~Chen, X.~Wang, and M.~Shahidehpour, ``Risk-aware hierarchical coordination
@@ -983,14 +1114,29 @@ X.~Chen, X.~Wang, and M.~Shahidehpour, ``Risk-aware hierarchical coordination
   uncertainties,'' \emph{IEEE Transactions on Transportation Electrification},
   2024.
 
+\bibitem{collaborative_multidepot_2023}
+Y.~Wang, J.~Zhou, Y.~Sun, J.~Fan, Z.~Wang, and H.~Wang, ``Collaborative
+  multidepot electric vehicle routing problem with time windows and shared
+  charging stations,'' \emph{Expert Systems with Applications}, 2023.
+
 \bibitem{electric_vehicles_2023}
 F.~Alanazi, ``Electric vehicles: Benefits, challenges, and potential solutions
   for widespread adaptation,'' \emph{Applied Sciences}, 2023.
+
+\bibitem{intelligent_algorithm-based_2023}
+M.~Bilal and M.~Rizwan, ``Intelligent algorithm-based efficient planning of
+  electric vehicle charging station: A case study of metropolitan city of
+  india,'' \emph{Scientia Iranica}, 2023.
 
 \bibitem{optimal_management_2023}
 X.~Ding, Q.~Gan, and M.~P. Shaker, ``Optimal management of parking lots as a
   big data for electric vehicles using internet of things and long–short term
   memory,'' \emph{Energy}, 2023.
+
+\bibitem{optimal_planning_2023}
+S.~S. Kumbhar and V.~N. Kalkhambkar, ``Optimal planning of battery swapping and
+  charging stations for the urban cities,'' \emph{2023 International Conference
+  on Advanced Computing Technologies and Applications (ICACTA)}, 2023.
 
 \bibitem{planning_of_2023}
 Z.~Zhou, Z.~Liu, H.~Su, and L.~Zhang, ``Planning of static and dynamic charging
@@ -1002,6 +1148,13 @@ J.~Chitra, R.~L.~R. Singh, and R.~L. Rose, ``Retracted: Charging infrastructure
   facilitate a large-scale introduction of electric vehicle in urban areas
   using hybrid technique: A rbfnn-spoa approach,'' \emph{Energy \&amp;
   Environment}, 2023.
+
+\bibitem{routing_and_2023}
+\BIBentryALTinterwordspacing
+K.~Zhang and J.~Lygeros, ``Routing and charging game in ride-hailing service
+  with electric vehicles,'' arXiv preprint, 2023, arXiv:2309.05120v1. [Online].
+  Available: \url{https://arxiv.org/abs/2309.05120v1}
+\BIBentrySTDinterwordspacing
 
 \bibitem{smart_and_2023}
 H.~Li, J.~Chen, C.~Yang, X.~Chen, L.~Chang, and J.~Liu, ``Smart and efficient
@@ -1052,6 +1205,11 @@ O.~Aydin, ``Secure charging and payment system for electric land vehicles with
   [Online]. Available: \url{https://arxiv.org/abs/2107.06100v1}
 \BIBentrySTDinterwordspacing
 
+\bibitem{a_model_2020}
+L.~Adenaw and M.~Lienkamp, ``A model for the data-based analysis and design of
+  urban public charging infrastructure,'' \emph{2020 Fifteenth International
+  Conference on Ecological Vehicles and Renewable Energies (EVER)}, 2020.
+
 \bibitem{optimal_siting_2020}
 A.~Relan, V.~Gupta, R.~Kumar, S.~Vyas, and B.~Panigrahi, ``Optimal siting of
   electric vehicle battery swapping stations with centralized charging,''
@@ -1098,48 +1256,161 @@ J.~Barco, A.~Guerra, L.~Muñoz, and N.~Quijano, ``Optimal routing and
   \url{https://arxiv.org/abs/1310.0145v1}
 \BIBentrySTDinterwordspacing
 
-\bibitem{a_data-driven_2024}
-Y.~Zhang and J.~Tan, ``A data-driven approach of layout evaluation for electric
-  vehicle charging infrastructure using agent-based simulation and gis,''
-  \emph{SIMULATION}, 2024.
+\bibitem{IEA2023GlobalEVOutlook}
+{International Energy Agency (IEA)}, ``{Global EV Outlook 2023: Catching Up
+  with Climate Ambitions},''
+  \url{https://www.iea.org/reports/global-ev-outlook-2023}, International
+  Energy Agency, Paris, Tech. Rep., 2023, license: CC~BY~4.0.
 
-\bibitem{a_density-based_2025}
-H.~Ameer, Y.~Wang, and Z.~Chen, ``A density-based spatial clustering and linear
-  programming method for electric vehicle charging station location and price
-  optimization,'' \emph{Energy}, 2025.
-
-\bibitem{a_method_2020}
-D.~Rizopoulos and D.~Esztergár-Kiss, ``A method for the optimization of daily
-  activity chains including electric vehicles,'' \emph{Energies}, 2020.
-
-\bibitem{a_model_2020}
-L.~Adenaw and M.~Lienkamp, ``A model for the data-based analysis and design of
-  urban public charging infrastructure,'' \emph{2020 Fifteenth International
-  Conference on Ecological Vehicles and Renewable Energies (EVER)}, 2020.
-
-\bibitem{a_multi-modal_2025}
+\bibitem{Ghosh2022}
 \BIBentryALTinterwordspacing
-O.~Karakuş and P.~Corcoran, ``A multi-modal spatial risk framework for ev
-  charging infrastructure using remote sensing,'' arXiv preprint, 2025,
-  arXiv:2506.19860v1. [Online]. Available:
-  \url{https://arxiv.org/abs/2506.19860v1}
+N.~Ghosh, S.~Mothilal~Bhagavathy, and J.~Thakur, ``Accelerating electric
+  vehicle adoption: techno-economic assessment to modify existing fuel stations
+  with fast charging infrastructure,'' \emph{Clean Technologies and
+  Environmental Policy}, vol.~24, no.~10, pp. 3033--3046, 2022. [Online].
+  Available: \url{https://doi.org/10.1007/s10098-022-02406-x}
 \BIBentrySTDinterwordspacing
 
-\bibitem{a_novel_2022}
-Y.-C. Hung and G.~Michailidis, ``A novel data-driven approach for solving the
-  electric vehicle charging station location-routing problem,'' \emph{IEEE
-  Transactions on Intelligent Transportation Systems}, 2022.
+\bibitem{Cai2024}
+\BIBentryALTinterwordspacing
+Y.~Cai, J.~Zhang, Q.~Gu, and C.~Wang, ``An analytical framework for assessing
+  equity of access to public electric vehicle charging stations: The case of
+  shanghai,'' \emph{Sustainability}, vol.~16, no.~14, 2024. [Online].
+  Available: \url{https://www.mdpi.com/2071-1050/16/14/6196}
+\BIBentrySTDinterwordspacing
 
-\bibitem{a_two-layer_2024}
-C.~Wu, Y.~Wang, Q.~Shi, and S.~Gao, ``A two-layer planning method for location
-  and capacity determination of public electric vehicle charging stations,''
-  \emph{International Journal of Electrical Power \&amp; Energy Systems}, 2024.
+\bibitem{Luo2024}
+\BIBentryALTinterwordspacing
+X.~Luo, M.~J. Kuby, Y.~Honma, M.~Kchaou-Boujelben, and X.~S. Zhou, ``Innovation
+  diffusion in {EV} charging location decisions: {Integrating} demand \& supply
+  through market dynamics,'' \emph{Transportation Research Part C: Emerging
+  Technologies}, vol. 165, p. 104733, 2024. [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/pii/S0968090X24002547}
+\BIBentrySTDinterwordspacing
 
-\bibitem{advancing_urban_2024}
-Z.~Zhang, Z.~Chen, E.~Gümrükcü, Z.~Ji, F.~Ponci, and A.~Monti, ``Advancing
-  urban electric vehicle charging stations: Ai-driven day-ahead optimization of
-  pricing and nudge strategies utilizing multi-agent deep reinforcement
-  learning,'' \emph{eTransportation}, 2024.
+\bibitem{Metais2022}
+\BIBentryALTinterwordspacing
+M.~O. Metais, O.~Jouini, Y.~Perez, J.~Berrada, and E.~Suomalainen, ``Too much
+  or not enough? {Planning} electric vehicle charging infrastructure:
+  {A} review of modeling options,'' \emph{Renewable and Sustainable Energy
+  Reviews}, vol. 153, p. 111719, Jan. 2022. [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/pii/S136403212100993X}
+\BIBentrySTDinterwordspacing
+
+\bibitem{torkey2022}
+A.~Torkey and H.~Abdelgawad, ``Framework for planning of ev charging
+  infrastructure: Where should cities start?'' \emph{Transport Policy}, vol.
+  128, pp. 193--208, 2022.
+
+\bibitem{shi2018}
+\BIBentryALTinterwordspacing
+C.~Shi, ``Propulsion-machine-integrated universal onboard chargers for electric
+  vehicles,'' Ph.D. dissertation, University of Maryland, 2018. [Online].
+  Available: \url{https://doi.org/10.13016/M2CN6Z32S}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ullah2023}
+\BIBentryALTinterwordspacing
+I.~Ullah, K.~Liu, S.~B. Layeb, A.~Severino, and A.~Jamal, ``Optimal deployment
+  of electric vehicles’ fast-charging stations,'' \emph{Journal of Advanced
+  Transportation}, vol. 2023, no.~1, p. 6103796, 2023. [Online]. Available:
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1155/2023/6103796}
+\BIBentrySTDinterwordspacing
+
+\bibitem{HEO2024}
+\BIBentryALTinterwordspacing
+J.~Heo and S.~Chang, ``Optimal planning for electric vehicle fast charging
+  stations placements in a city scale using an advantage actor-critic deep
+  reinforcement learning and geospatial analysis,'' \emph{Sustainable Cities
+  and Society}, vol. 113, p. 105567, 2024. [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/pii/S2210670724003937}
+\BIBentrySTDinterwordspacing
+
+\bibitem{IRAVANI2022}
+\BIBentryALTinterwordspacing
+H.~Iravani, ``A multicriteria gis-based decision-making approach for locating
+  electric vehicle charging stations,'' \emph{Transportation Engineering},
+  vol.~9, p. 100135, 2022. [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/pii/S2666691X22000331}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ROY2022}
+\BIBentryALTinterwordspacing
+A.~Roy and M.~Law, ``Examining spatial disparities in electric vehicle charging
+  station placements using machine learning,'' \emph{Sustainable Cities and
+  Society}, vol.~83, p. 103978, 2022. [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/pii/S2210670722002980}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Seilabi2025}
+\BIBentryALTinterwordspacing
+S.~E.~Seilabi, M.~Pourgholamali, M.~Miralinaghi, G.~Homem~de Almeida~Correia,
+  Z.~Li, and S.~Labi, ``Sustainable planning of electric vehicle charging
+  stations: A bi-level optimization framework for reducing vehicular emissions
+  in urban road networks,'' \emph{Sustainability}, vol.~17, no.~1, 2025.
+  [Online]. Available: \url{https://www.mdpi.com/2071-1050/17/1/1}
+\BIBentrySTDinterwordspacing
+
+\bibitem{KAVIANIPOUR2021}
+\BIBentryALTinterwordspacing
+M.~Kavianipour, F.~Fakhrmoosavi, H.~Singh, M.~Ghamami, A.~Zockaie, Y.~Ouyang,
+  and R.~Jackson, ``Electric vehicle fast charging infrastructure planning in
+  urban networks considering daily travel and charging behavior,''
+  \emph{Transportation Research Part D: Transport and Environment}, vol.~93, p.
+  102769, 2021. [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/pii/S1361920921000730}
+\BIBentrySTDinterwordspacing
+
+\bibitem{bian_planning_2022}
+\BIBentryALTinterwordspacing
+H.~Bian, C.~Zhou, Z.~Guo, X.~Wang, Y.~He, and S.~Peng, ``Planning of electric
+  vehicle fast-charging station based on {POI} interest point division,
+  functional area, and multiple temporal and spatial characteristics,''
+  \emph{Energy Reports}, vol.~8, pp. 831--840, 2022. [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/pii/S2352484722020960}
+\BIBentrySTDinterwordspacing
+
+\bibitem{JHA2025}
+\BIBentryALTinterwordspacing
+S.~Jha, A.~Pani, H.~Puppala, V.~Varghese, and A.~Unnikrishnan, ``An
+  equity-based approach for addressing inequality in electric vehicle charging
+  infrastructure: Leaving no one behind in transport electrification,''
+  \emph{Energy for Sustainable Development}, vol.~85, p. 101643, 2025.
+  [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/pii/S0973082624002692}
+\BIBentrySTDinterwordspacing
+
+\bibitem{AN2025}
+\BIBentryALTinterwordspacing
+Y.~An, J.~Y. Chow, S.~Woo, and J.~Lee, ``Urban public charging infrastructure
+  planning for electric vehicles: A continuum approximation approach,''
+  \emph{Transportation Research Part D: Transport and Environment}, vol. 141,
+  p. 104605, 2025. [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/pii/S136192092500015X}
+\BIBentrySTDinterwordspacing
+
+\bibitem{heo_optimal_2024}
+J.~Heo and S.~Chang, ``\BIBforeignlanguage{English}{Optimal planning for
+  electric vehicle fast charging stations placements in a city scale using an
+  advantage actor-critic deep reinforcement learning and geospatial
+  analysis},'' \emph{\BIBforeignlanguage{English}{Sustainable Cities and
+  Society}}, vol. 113, 2024, publisher: Elsevier Ltd.
+
+\bibitem{KARMAKER2025}
+\BIBentryALTinterwordspacing
+A.~K. Karmaker, B.~Sturmberg, S.~Behrens, and H.~R. Pota, ``Customer-centric
+  meso-level planning for electric vehicle charger distribution,''
+  \emph{Applied Energy}, vol. 389, p. 125742, 2025. [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/pii/S0306261925004726}
+\BIBentrySTDinterwordspacing
+
+\bibitem{a_dynamic_2011}
+\BIBentryALTinterwordspacing
+N.~Taheri, R.~Entriken, and Y.~Ye, ``A dynamic algorithm for facilitated
+  charging of plug-in electric vehicles,'' arXiv preprint, 2011,
+  arXiv:1112.0697v1. [Online]. Available:
+  \url{https://arxiv.org/abs/1112.0697v1}
+\BIBentrySTDinterwordspacing
 
 \bibitem{allocate_electric_0}
 \BIBentryALTinterwordspacing
@@ -1148,31 +1419,13 @@ T.~Wu, E.~Z. Fainman, Y.~Maizi, J.~Shu, and Y.~Li, ``Allocate electric
   [Online]. Available: \url{https://doi.org/10.2139/ssrn.4537082}
 \BIBentrySTDinterwordspacing
 
-\bibitem{an_exact_2025}
+\bibitem{analysis_of_2022}
 \BIBentryALTinterwordspacing
-M.~Nankali and M.~W. Levin, ``An exact solution algorithm for the bi-level
-  optimization problem of electric vehicles charging station placement,'' arXiv
-  preprint, 2025, arXiv:2511.19884v2. [Online]. Available:
-  \url{https://arxiv.org/abs/2511.19884v2}
+C.~Hecht, J.~Figgener, and D.~U. Sauer, ``Analysis of electric vehicle charging
+  station usage and profitability in germany based on empirical data,'' arXiv
+  preprint, 2022, arXiv:2206.09582v1. [Online]. Available:
+  \url{https://arxiv.org/abs/2206.09582v1}
 \BIBentrySTDinterwordspacing
-
-\bibitem{charging_games_2015}
-\BIBentryALTinterwordspacing
-O.~Beaude, S.~Lasaulce, and M.~Hennebel, ``Charging games in networks of
-  electrical vehicles,'' arXiv preprint, 2015, arXiv:1509.07349v1. [Online].
-  Available: \url{https://arxiv.org/abs/1509.07349v1}
-\BIBentrySTDinterwordspacing
-
-\bibitem{charging_infrastructure_2024}
-Z.~Zhang, J.~Liu, J.~P. Bastidas, and S.~Jones, ``Charging infrastructure
-  assessment for shared autonomous electric vehicles in 374 small and
-  medium-sized urban areas: An agent-based simulation approach,''
-  \emph{Transport Policy}, 2024.
-
-\bibitem{collaborative_multidepot_2023}
-Y.~Wang, J.~Zhou, Y.~Sun, J.~Fan, Z.~Wang, and H.~Wang, ``Collaborative
-  multidepot electric vehicle routing problem with time windows and shared
-  charging stations,'' \emph{Expert Systems with Applications}, 2023.
 
 \bibitem{composite_charging_2015}
 \BIBentryALTinterwordspacing
@@ -1181,55 +1434,23 @@ O.~Beaude, C.~Wan, and S.~Lasaulce, ``Composite charging games in networks of
   Available: \url{https://arxiv.org/abs/1509.07345v1}
 \BIBentrySTDinterwordspacing
 
-\bibitem{electric_vehicle_0}
-\BIBentryALTinterwordspacing
-Z.~Li, M.~Chowdhury, and P.~Bhavsar, ``Electric vehicle charging infrastructure
-  optimization incorporating demand forecasting and renewable energy
-  application,'' 0. [Online]. Available:
-  \url{https://doi.org/10.20944/preprints202508.1268.v1}
-\BIBentrySTDinterwordspacing
-
 \bibitem{electric_vehicle_2022}
 Y.~Wang, J.~Zhou, Y.~Sun, X.~Wang, J.~Zhe, and H.~Wang, ``Electric vehicle
   charging station location-routing problem with time windows and resource
   sharing,'' \emph{Sustainability}, 2022.
 
-\bibitem{energy-optimal_design_2021}
+\bibitem{fleet_sizing_2023}
+J.~Yang, M.~W. Levin, L.~Hu, H.~Li, and Y.~Jiang, ``Fleet sizing and charging
+  infrastructure design for electric autonomous mobility-on-demand systems with
+  endogenous congestion and limited link space,'' \emph{Transportation Research
+  Part C: Emerging Technologies}, 2023.
+
+\bibitem{grid-constrained_online_2024}
 \BIBentryALTinterwordspacing
-J.~van~den Hurk and M.~Salazar, ``Energy-optimal design and control of electric
-  vehicles' transmissions,'' arXiv preprint, 2021, arXiv:2105.05119v1.
-  [Online]. Available: \url{https://arxiv.org/abs/2105.05119v1}
-\BIBentrySTDinterwordspacing
-
-\bibitem{energy_management_2024}
-Y.~Cao and M.~Zhou, ``Energy management optimization of hybrid electric
-  vehicles based on deep learning model predictive control,'' \emph{Intelligent
-  Decision Technologies}, 2024.
-
-\bibitem{engineering_and_2018}
-\BIBentryALTinterwordspacing
-C.~Luo, ``Engineering and economic analysis for electric vehicle charging
-  infrastructure --- placement, pricing, and market design,'' arXiv preprint,
-  2018, arXiv:1808.03897v1. [Online]. Available:
-  \url{https://arxiv.org/abs/1808.03897v1}
-\BIBentrySTDinterwordspacing
-
-\bibitem{equilibrium_configuration_2024}
-Z.~Wang, L.~Zhang, W.~Tang, Z.~Ma, and J.~Huang, ``Equilibrium configuration
-  strategy of vehicle-to-grid-based electric vehicle charging stations in
-  low-carbon resilient distribution networks,'' \emph{Applied Energy}, 2024.
-
-\bibitem{fairness-oriented_charging_2025}
-S.~Yuan, J.~Fu, and X.~Ma, ``Fairness-oriented charging station location
-  optimization driven by deep reinforcement learning,'' \emph{IEEE Access},
-  2025.
-
-\bibitem{hierarchical_optimization_2021}
-\BIBentryALTinterwordspacing
-A.~Mirheli and L.~Hajibabai, ``Hierarchical optimization of electric vehicle
-  charging infrastructure design and facility logistics,'' arXiv preprint,
-  2021, arXiv:2105.10557v1. [Online]. Available:
-  \url{https://arxiv.org/abs/2105.10557v1}
+E.~van Huffelen, R.~Brouwer, and M.~van~den Akker, ``Grid-constrained online
+  scheduling of flexible electric vehicle charging,'' arXiv preprint, 2024,
+  arXiv:2403.03109v1. [Online]. Available:
+  \url{https://arxiv.org/abs/2403.03109v1}
 \BIBentrySTDinterwordspacing
 
 \bibitem{ideas_information-driven_2024}
@@ -1256,116 +1477,182 @@ G.~Pierrou and G.~Hug, ``Integrating optimal ev charging in the energy
   \url{https://arxiv.org/abs/2308.01145v1}
 \BIBentrySTDinterwordspacing
 
-\bibitem{intelligent_algorithm-based_2023}
-M.~Bilal and M.~Rizwan, ``Intelligent algorithm-based efficient planning of
-  electric vehicle charging station: A case study of metropolitan city of
-  india,'' \emph{Scientia Iranica}, 2023.
-
-\bibitem{minimizing_the_2015}
+\bibitem{load_forecasting_2019}
 \BIBentryALTinterwordspacing
-O.~Beaude, S.~Lasaulce, M.~Hennebel, and J.~Daafouz, ``Minimizing the impact of
-  ev charging on the electricity distribution network,'' arXiv preprint, 2015,
-  arXiv:1509.07332v1. [Online]. Available:
-  \url{https://arxiv.org/abs/1509.07332v1}
+Z.~Liu, Y.~Xie, D.~Feng, Y.~Zhou, S.~Shi, and C.~Fang, ``Load forecasting model
+  and day-ahead operation strategy for city-located ev quick charge stations,''
+  arXiv preprint, 2019, arXiv:1909.00971v1. [Online]. Available:
+  \url{https://arxiv.org/abs/1909.00971v1}
 \BIBentrySTDinterwordspacing
 
-\bibitem{on-demand_valet_2021}
+\bibitem{optimizing_energy_2024}
+V.~Fernandez, V.~Pérez, and R.~Roig, ``Optimizing energy supply for full
+  electric vehicles in smart cities: A comprehensive mobility network model,''
+  \emph{World Electric Vehicle Journal}, 2024.
+
+\bibitem{policy_interventions_2024}
+S.~Makaremi, ``Policy interventions and urban characteristics in modeling
+  electric vehicle charging infrastructure utilization,'' \emph{Case Studies on
+  Transport Policy}, 2024.
+
+\bibitem{scalable_electric_2015}
 \BIBentryALTinterwordspacing
-Z.~Lai and S.~Li, ``On-demand valet charging for electric vehicles: Economic
-  equilibrium, infrastructure planning and regulatory incentives,'' arXiv
-  preprint, 2021, arXiv:2106.08162v2. [Online]. Available:
-  \url{https://arxiv.org/abs/2106.08162v2}
+L.~Zhang, V.~Kekatos, and G.~B. Giannakis, ``Scalable electric vehicle charging
+  protocols,'' arXiv preprint, 2015, arXiv:1510.00403v2. [Online]. Available:
+  \url{https://arxiv.org/abs/1510.00403v2}
 \BIBentrySTDinterwordspacing
 
-\bibitem{optimal_electric_2024}
-P.~Kumar and H.~K. Channi, ``Optimal electric vehicle charging station
-  placement: A multi-criteria decision-making approach for site selection,''
-  \emph{2024 International Conference on Integrated Circuits and Communication
-  Systems (ICICACS)}, 2024.
-
-\bibitem{optimal_fast_2020}
+\bibitem{synergistic_development_2025}
 \BIBentryALTinterwordspacing
-T.-Y. Ma and S.~Xie, ``Optimal fast charging station locations for electric
-  ridesharing service with online vehicle-charging station assignment,'' arXiv
-  preprint, 2020, arXiv:2008.05949v2. [Online]. Available:
-  \url{https://arxiv.org/abs/2008.05949v2}
+S.~Pimpale, ``Synergistic development of cybersecurity and functional safety
+  for smart electric vehicles,'' arXiv preprint, 2025, arXiv:2511.07713v1.
+  [Online]. Available: \url{https://arxiv.org/abs/2511.07713v1}
 \BIBentrySTDinterwordspacing
 
-\bibitem{optimal_placement_2022}
-D.~Srinivas and M.~R. Reddy, ``Optimal placement of electric vehicle charging
-  station by considering dynamic loads in radial distribution system,''
-  \emph{2022 International Conference on Automation, Computing and Renewable
-  Systems (ICACRS)}, 2022.
-
-\bibitem{optimal_planning_2023}
-S.~S. Kumbhar and V.~N. Kalkhambkar, ``Optimal planning of battery swapping and
-  charging stations for the urban cities,'' \emph{2023 International Conference
-  on Advanced Computing Technologies and Applications (ICACTA)}, 2023.
-
-\bibitem{optimal_planning_2024}
-J.~Heo and S.~Chang, ``Optimal planning for electric vehicle fast charging
-  stations placements in a city scale using an advantage actor-critic deep
-  reinforcement learning and geospatial analysis,'' \emph{Sustainable Cities
-  and Society}, 2024.
-
-\bibitem{optimizing_ev_2024}
-J.~Huang and X.~Zhou, ``Optimizing ev charging station placement in new south
-  wales: A soft actor-critic reinforcement learning approach,'' \emph{2024 5th
-  International Conference on Computer Engineering and Application (ICCEA)},
-  2024.
-
-\bibitem{optimizing_the_2020}
-A.~GORBUNOVA and I.~ANISIMOV, ``Optimizing the location of urban charging
-  stations for electric vehicles: Case study of the city of tyumen, russian
-  federation,'' \emph{WIT Transactions on The Built Environment}, 2020.
-
-\bibitem{placement_of_2018}
+\bibitem{the_electric_2021}
 \BIBentryALTinterwordspacing
-C.~Luo, Y.-F. Huang, and V.~Gupta, ``Placement of ev charging stations ---
-  balancing benefits among multiple entities,'' arXiv preprint, 2018,
-  arXiv:1801.02129v1. [Online]. Available:
-  \url{https://arxiv.org/abs/1801.02129v1}
+Y.~Liang, S.~Dabia, and Z.~Luo, ``The electric vehicle routing problem with
+  nonlinear charging functions,'' arXiv preprint, 2021, arXiv:2108.01273v1.
+  [Online]. Available: \url{https://arxiv.org/abs/2108.01273v1}
 \BIBentrySTDinterwordspacing
 
-\bibitem{predicting_optimal_2025}
-A.~Mousaei and Y.~Naderi, ``Predicting optimal placement of electric vehicle
-  charge stations using machine learning: A case study in glasgow, uk,''
-  \emph{2025 12th Iranian Conference on Renewable Energies and Distributed
-  Generation (ICREDG)}, 2025.
+\bibitem{ilkoglu2024}
+E.~Ilkoğlu, J.~Macedo, and V.~Garikapati, ``A social equity analysis of public
+  ev charging access in the us,'' \emph{Energy Research \& Social Science},
+  vol. 110, p. 103301, 2024.
 
-\bibitem{reducing_waiting_2021}
+\bibitem{hecht2022}
+C.~Hecht, J.~Figgener, and D.~U. Sauer, ``Empirical analysis of public charging
+  infrastructure utilization and profitability in germany,'' \emph{arXiv
+  preprint arXiv:2206.09582}, 2022.
+
+\bibitem{liu2021}
+S.~Liu, C.-H. Lin, and Y.~Ouyang, ``A network equilibrium framework for
+  electric vehicle charging station location planning,'' \emph{arXiv preprint
+  arXiv:2102.05851}, 2021.
+
+\bibitem{magsino2024}
+L.~Magsino, E.~Adkins, and P.~Mooney, ``Optimizing ev charging infrastructure
+  using spatial clustering of mobility data,'' \emph{ISPRS International
+  Journal of Geo-Information}, vol.~13, no.~10, p. 368, 2024.
+
+\bibitem{pan2024}
+S.~Pan, X.~Liu, and Y.~Wang, ``Built environment, public charging access, and
+  electric vehicle adoption in the us: A spatial regression analysis,''
+  \emph{arXiv preprint arXiv:2401.17456}, 2024.
+
+\bibitem{celik2024}
+H.~Çelik and E.~Ok, ``P-median model for ev fast charger deployment under
+  demand uncertainty,'' \emph{Heliyon}, vol.~10, no.~1, p. e11055, 2024.
+
+\bibitem{padmanabhan2021}
+R.~Padmanabhan, X.~Wang, and F.~Wang, ``Location optimization of ev charging
+  stations using reinforcement learning,'' \emph{Transportation Research Part
+  A: Policy and Practice}, vol. 153, pp. 257--277, 2021.
+
+\bibitem{kuang2024}
+H.~Kuang, J.~Wang, Y.~Li, and J.~Huang, ``Cityevcp: Context-aware ev charging
+  prediction and planning using hypergraph attention networks,'' \emph{arXiv
+  preprint arXiv:2401.18766}, 2024.
+
+\bibitem{wang2021}
+Z.~Wang, J.~Xie, L.~Hu, and J.~Xu, ``Spap: Simultaneous prediction and planning
+  framework for electric vehicle charging infrastructure,'' \emph{arXiv
+  preprint arXiv:2110.09452}, 2021.
+
+\bibitem{junker2025}
+F.~Junker, Y.~Bauer, and J.~Feige, ``Causal discovery in ev charger
+  utilization: The role of spatial demand and built environment,'' \emph{arXiv
+  preprint arXiv:2503.17055}, 2025.
+
+\bibitem{tra2022}
+N.~Tra, A.~Carvalho, and M.~Silva, ``Max-covering and user-choice hybrid models
+  for electric vehicle charging station location,'' \emph{arXiv preprint
+  arXiv:2206.11165}, 2022.
+
+\bibitem{hongkong2022}
+Y.~Zhang and W.~Liu, ``Optimal allocation of electric vehicle charging stations
+  in hong kong using discrete choice modeling,'' \emph{Transportation Research
+  Part A: Policy and Practice}, vol. 156, pp. 77--93, 2022.
+
+\bibitem{dharangaonkar2025}
+P.~Dharangaonkar and A.~Patil, ``Systematic review of electric vehicle charging
+  infrastructure planning models: Gaps and future directions,''
+  \emph{International Journal of Sustainable Development and Planning},
+  vol.~20, no.~6, pp. 761--778, 2025.
+
+\bibitem{iea2025}
+I.~E. Agency, ``Global ev outlook 2025,''
+  \url{https://www.iea.org/reports/global-ev-outlook-2025}, 2025, accessed:
+  July 2025.
+
+\bibitem{guardian2024}
+S.~Consultancy, ``Uk faces severe ev charger access inequality, study shows,''
+  \emph{The Guardian}, 2024, accessed: July 2025.
+
+\bibitem{etrr2018}
+Y.~Zhou, J.~Levin, and L.~Zhang, ``Regional disparities in ev public charging
+  infrastructure: Evidence from california,'' \emph{European Transport Research
+  Review}, vol.~10, no.~3, pp. 57--72, 2018.
+
+\bibitem{carlton2022}
 \BIBentryALTinterwordspacing
-S.~Schoenberg and F.~Dressler, ``Reducing waiting times at charging stations
-  with adaptive electric vehicle route planning,'' arXiv preprint, 2021,
-  arXiv:2102.06503v1. [Online]. Available:
-  \url{https://arxiv.org/abs/2102.06503v1}
+G.~J. Carlton and S.~Sultana, ``Electric vehicle charging station accessibility
+  and land use clustering: A case study of the chicago region,'' \emph{Journal
+  of Urban Mobility}, vol.~2, p. 100019, 2022. [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/pii/S2667091722000073}
 \BIBentrySTDinterwordspacing
 
-\bibitem{regional_transportation_2026}
+\bibitem{qu2024}
+H.~Qu, H.~Kuang, Q.~Wang, J.~Li, and L.~You, ``A physics-informed and
+  attention-based graph learning approach for regional electric vehicle
+  charging demand prediction,'' \emph{IEEE Transactions on Intelligent
+  Transportation Systems}, vol.~25, no.~10, pp. 14\,284--14\,297, 2024.
+
+\bibitem{wong2004modifiable}
+D.~W. Wong, ``The modifiable areal unit problem (maup),'' in \emph{WorldMinds:
+  geographical perspectives on 100 problems: commemorating the 100th
+  anniversary of the association of American geographers 1904--2004}.\hskip 1em
+  plus 0.5em minus 0.4em\relax Springer, 2004, pp. 571--575.
+
+\bibitem{Kapoor2024}
+A.~Kapoor, V.~S. Patel, A.~Sharma, and A.~Mohapatra, ``Optimal planning of fast
+  ev charging stations in a coupled transportation and electrical power
+  distribution network,'' \emph{IEEE Transactions on Automation Science and
+  Engineering}, vol.~21, no.~3, pp. 4261--4271, 2024.
+
+\bibitem{10018877}
+A.~Pal, A.~Bhattacharya, and A.~K. Chakraborty, ``Planning of ev charging
+  station with distribution network expansion considering traffic congestion
+  and uncertainties,'' \emph{IEEE Transactions on Industry Applications},
+  vol.~59, no.~3, pp. 3810--3825, 2023.
+
+\bibitem{Law2021}
 \BIBentryALTinterwordspacing
-I.~Babur and J.~Macfarlane, ``Regional transportation modeling for equitable
-  electric vehicle charging infrastructure design,'' arXiv preprint, 2026,
-  arXiv:2601.22395v1. [Online]. Available:
-  \url{https://arxiv.org/abs/2601.22395v1}
+M.~Law and A.~Roy, ``A geospatial data fusion framework to quantify variations
+  in electric vehicle charging demand,'' in \emph{Proceedings of the 4th ACM
+  SIGSPATIAL International Workshop on Advances in Resilient and Intelligent
+  Cities}, ser. ARIC '21.\hskip 1em plus 0.5em minus 0.4em\relax New York, NY,
+  USA: Association for Computing Machinery, 2021, p. 23–26. [Online].
+  Available: \url{https://doi.org/10.1145/3486626.3493429}
 \BIBentrySTDinterwordspacing
 
-\bibitem{routing_and_2023}
-\BIBentryALTinterwordspacing
-K.~Zhang and J.~Lygeros, ``Routing and charging game in ride-hailing service
-  with electric vehicles,'' arXiv preprint, 2023, arXiv:2309.05120v1. [Online].
-  Available: \url{https://arxiv.org/abs/2309.05120v1}
-\BIBentrySTDinterwordspacing
+\bibitem{StatCan_CT_2011_Def}
+{Statistics Canada}, ``Census tract (ct),''
+  \url{https://www150.statcan.gc.ca/n1/pub/92-195-x/2011001/geo/ct-sr/def-eng.htm},
+  2011, from the 2011 Census Dictionary, Statistics Canada Catalogue no.
+  92-195-X.
 
-\bibitem{socially_optimal_2013}
-\BIBentryALTinterwordspacing
-E.~Yudovina and G.~Michailidis, ``Socially optimal charging strategies for
-  electric vehicles,'' arXiv preprint, 2013, arXiv:1304.2329v1. [Online].
-  Available: \url{https://arxiv.org/abs/1304.2329v1}
-\BIBentrySTDinterwordspacing
+\bibitem{StatCan_FSA_2021_Def}
+------, ``Forward sortation area (fsa),''
+  \url{https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/az/Definition-eng.cfm?ID=geo036},
+  2021, from the 2021 Census Dictionary, Statistics Canada Catalogue no.
+  98-301-X.
 
-\bibitem{spap_simultaneous_2023}
-Y.~Wang, D.~Zhao, Y.~Ren, D.~Zhang, and H.~Ma, ``Spap: Simultaneous demand
-  prediction and planning for electric vehicle chargers in a new city,''
-  \emph{ACM Transactions on Knowledge Discovery from Data}, 2023.
+\bibitem{StatCan_DA_2011_Def}
+------, ``Dissemination area (da),''
+  \url{https://www150.statcan.gc.ca/n1/pub/92-195-x/2011001/geo/da-ad/def-eng.htm},
+  2011, from the 2011 Census Dictionary, Statistics Canada Catalogue no.
+  92-195-X.
 
 \end{thebibliography}

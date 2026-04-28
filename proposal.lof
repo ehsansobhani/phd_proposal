@@ -5,3 +5,14 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Workflow of the arterial zoning algorithm. Road centrelines and \gls {fsa} polygons are processed to produce a set of finalized arterial zones, \gls {ZAr}.}}{227}{figure.caption.62}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Input geospatial datasets for the arterial zoning algorithm: (a) \gls {tcl} dataset; (b) \gls {fsa} boundaries.}}{242}{figure.caption.136}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Derived arterial zones for the City of Toronto.}}{243}{figure.caption.137}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Intersection between \glspl {fsa} and arterial zones for redistributing \gls {bev} ownership counts.}}{243}{figure.caption.139}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Spatial and statistical representation of smoothed \gls {bev} densities across arterial zones: (a) heatmap of $\tilde {\rho }^{\mathrm {Ar}}_{j}$ values; (b) corresponding empirical distribution.}}{244}{figure.caption.140}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Adjacency graph of Toronto's arterial zones, local maxima of smoothed \gls {bev} density across Toronto’s arterial zones.}}{246}{figure.caption.143}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Ridge-path results (a) Average-based ridges; (b) Maximum-based ridges; (c) Median-based ridges; (d) Standard-deviation–based ridges; (e) Laplacian-based ridges; (f) Overlay of all strategies' ridge paths drawn in a single ridge color for visual comparison. }}{247}{figure.caption.144}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Spatial distribution of FLO \gls {dcfc} stations across Toronto. Each point represents a station, scaled by its aggregate charging capacity (kW).}}{249}{figure.caption.147}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Average WPD vs. number of experiments. The curve flattens beyond 100 simulations, indicating convergence.}}{249}{figure.caption.148}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Representative random charger layouts corresponding to the lowest and highest computed proximity metrics.}}{250}{figure.caption.149}%

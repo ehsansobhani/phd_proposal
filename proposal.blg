@@ -4,58 +4,60 @@ The top-level auxiliary file: proposal.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: IEEEtran.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'name_of_file' (item size: 1) to 14 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'field_info' (item size: 4) to 12314 items.
+Reallocating 'field_info' (item size: 4) to 14338 items.
 Database file #1: references.bib
+Database file #2: refs_chapter7.bib
 Warning--I didn't find a database entry for "joint_planning_2023"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 200 entries,
+You've used 243 entries,
             4087 wiz_defined-function locations,
-            1713 strings with 53017 characters,
-and the built_in function-call counts, 101951 in all, are:
-= -- 8146
-> -- 3353
-< -- 0
-+ -- 1582
-- -- 791
-* -- 4778
-:= -- 17728
-add.period$ -- 400
-call.type$ -- 200
-change.case$ -- 306
-chr.to.int$ -- 0
-cite$ -- 200
-duplicate$ -- 8071
-empty$ -- 8503
-format.name$ -- 980
-if$ -- 22715
+            1958 strings with 62042 characters,
+and the built_in function-call counts, 130683 in all, are:
+= -- 10732
+> -- 3990
+< -- 155
++ -- 1914
+- -- 925
+* -- 6126
+:= -- 22397
+add.period$ -- 488
+call.type$ -- 243
+change.case$ -- 356
+chr.to.int$ -- 273
+cite$ -- 243
+duplicate$ -- 10303
+empty$ -- 10655
+format.name$ -- 1142
+if$ -- 29365
 int.to.chr$ -- 0
-int.to.str$ -- 200
-missing$ -- 1913
-newline$ -- 839
-num.names$ -- 200
-pop$ -- 5322
+int.to.str$ -- 243
+missing$ -- 2302
+newline$ -- 1002
+num.names$ -- 243
+pop$ -- 6172
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 7550
+skip$ -- 9895
 stack$ -- 0
-substring$ -- 412
-swap$ -- 5101
-text.length$ -- 0
+substring$ -- 1300
+swap$ -- 6838
+text.length$ -- 64
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 200
+type$ -- 243
 warning$ -- 0
-while$ -- 200
-width$ -- 203
-write$ -- 2050
+while$ -- 299
+width$ -- 246
+write$ -- 2521
 (There was 1 warning)

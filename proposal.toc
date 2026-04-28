@@ -1,8 +1,8 @@
 \contentsline {chapter}{Abstract}{i}{dummy.1}%
 
 \contentsline {chapter}{Table of Contents}{iii}{dummy.3}%
-\contentsline {chapter}{List of Figures}{v}{dummy.5}%
-\contentsline {chapter}{List of Tables}{vi}{dummy.7}%
+\contentsline {chapter}{List of Figures}{vi}{dummy.5}%
+\contentsline {chapter}{List of Tables}{vii}{dummy.7}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.9}%
 \contentsline {section}{\numberline {1.1}Urban Electrification and the Infrastructure Challenge}{1}{section.10}%
 \contentsline {section}{\numberline {1.2}Why Fast-Charging Planning Is a Hard Problem}{2}{section.11}%
@@ -18,30 +18,59 @@
 \contentsline {section}{\numberline {2.6}Quality Assessment}{10}{section.22}%
 \contentsline {chapter}{\numberline {3}Related Work}{11}{chapter.23}%
 \contentsline {section}{\numberline {3.1}Spatial Optimization for Charging Station Placement}{11}{section.24}%
-\contentsline {section}{\numberline {3.2}Equity Considerations in Charging Infrastructure Planning}{54}{section.25}%
-\contentsline {section}{\numberline {3.3}Utilization and Demand Modeling}{56}{section.26}%
-\contentsline {section}{\numberline {3.4}Phased and Sequential Deployment}{63}{section.27}%
-\contentsline {section}{\numberline {3.5}Zoning and Land-Use Compatibility}{65}{section.28}%
-\contentsline {section}{\numberline {3.6}Meso-Micro Planning Integration}{66}{section.29}%
-\contentsline {section}{\numberline {3.7}Existing Reviews and Meta-Analyses}{66}{section.30}%
-\contentsline {section}{\numberline {3.8}Related Infrastructure Planning Approaches}{67}{section.31}%
-\contentsline {chapter}{\numberline {4}Research Gap Analysis}{77}{chapter.32}%
-\contentsline {section}{\numberline {4.1}Gap 1: Misaligned Spatial Units}{77}{section.33}%
-\contentsline {section}{\numberline {4.2}Gap 2: Lack of Zoning Impact Analysis}{83}{section.34}%
-\contentsline {section}{\numberline {4.3}Gap 3: Equity and Utilization Separation}{84}{section.35}%
-\contentsline {section}{\numberline {4.4}Gap 4: Static Optimization Dominance}{86}{section.36}%
-\contentsline {section}{\numberline {4.5}Gap 5: Missing Meso-Micro Integration}{88}{section.37}%
-\contentsline {section}{\numberline {4.6}Overall Gap Coverage Summary}{89}{section.38}%
-\contentsline {section}{\numberline {4.7}Methodology Distribution Across the Corpus}{90}{section.39}%
-\contentsline {chapter}{\numberline {5}Research Questions}{93}{chapter.40}%
-\contentsline {section}{\numberline {5.1}RQ1: Spatial Unit Design and Zoning Schema Comparison (Gaps 1 and 2)}{93}{section.41}%
-\contentsline {section}{\numberline {5.2}RQ2: Joint Equity-Utilization Optimization (Gap 3)}{94}{section.42}%
-\contentsline {section}{\numberline {5.3}RQ3: Adaptive Phased Deployment (Gap 4)}{95}{section.43}%
-\contentsline {section}{\numberline {5.4}RQ4: Meso-to-Micro Site Translation (Gap 5)}{96}{section.44}%
-\contentsline {chapter}{\numberline {6}Proposed Research Framework}{98}{chapter.45}%
-\contentsline {section}{\numberline {6.1}Framework Overview}{98}{section.46}%
-\contentsline {section}{\numberline {6.2}Stage A: Mobility-Corridor Spatial Unit Construction}{98}{section.47}%
-\contentsline {section}{\numberline {6.3}Stage B: Joint Equity-Utilization Adaptive Phased Rollout Optimization}{99}{section.48}%
-\contentsline {section}{\numberline {6.4}Stage C: Meso-to-Micro Site Translation Protocol}{100}{section.49}%
-\contentsline {section}{\numberline {6.5}Comparison with Existing Approaches}{101}{section.50}%
-\contentsline {section}{\numberline {6.6}Study Area and Data Requirements}{101}{section.51}%
+\contentsline {section}{\numberline {3.2}Equity Considerations in Charging Infrastructure Planning}{81}{section.25}%
+\contentsline {section}{\numberline {3.3}Utilization and Demand Modeling}{83}{section.26}%
+\contentsline {section}{\numberline {3.4}Phased and Sequential Deployment}{86}{section.27}%
+\contentsline {section}{\numberline {3.5}Zoning and Land-Use Compatibility}{90}{section.28}%
+\contentsline {section}{\numberline {3.6}Meso-Micro Planning Integration}{91}{section.29}%
+\contentsline {section}{\numberline {3.7}Existing Reviews and Meta-Analyses}{91}{section.30}%
+\contentsline {section}{\numberline {3.8}Related Infrastructure Planning Approaches}{92}{section.31}%
+\contentsline {chapter}{\numberline {4}Research Gap Analysis}{104}{chapter.32}%
+\contentsline {section}{\numberline {4.1}Gap 1: Misaligned Spatial Units}{104}{section.33}%
+\contentsline {section}{\numberline {4.2}Gap 2: Lack of Zoning Impact Analysis}{166}{section.34}%
+\contentsline {section}{\numberline {4.3}Gap 3: Equity and Utilization Separation}{170}{section.35}%
+\contentsline {section}{\numberline {4.4}Gap 4: Static Optimization Dominance}{178}{section.36}%
+\contentsline {section}{\numberline {4.5}Gap 5: Missing Meso-Micro Integration}{200}{section.37}%
+\contentsline {section}{\numberline {4.6}Overall Gap Coverage Summary}{205}{section.38}%
+\contentsline {section}{\numberline {4.7}Methodology Distribution Across the Corpus}{206}{section.39}%
+\contentsline {chapter}{\numberline {5}Research Questions}{209}{chapter.40}%
+\contentsline {section}{\numberline {5.1}RQ1: Spatial Unit Design and Zoning Schema Comparison (Gaps 1 and 2)}{209}{section.41}%
+\contentsline {section}{\numberline {5.2}RQ2: Joint Equity-Utilization Optimization (Gap 3)}{210}{section.42}%
+\contentsline {section}{\numberline {5.3}RQ3: Adaptive Phased Deployment (Gap 4)}{211}{section.43}%
+\contentsline {section}{\numberline {5.4}RQ4: Meso-to-Micro Site Translation (Gap 5)}{212}{section.44}%
+\contentsline {chapter}{\numberline {6}Proposed Research Framework}{214}{chapter.45}%
+\contentsline {section}{\numberline {6.1}Framework Overview}{214}{section.46}%
+\contentsline {section}{\numberline {6.2}Stage A: Mobility-Corridor Spatial Unit Construction}{214}{section.47}%
+\contentsline {section}{\numberline {6.3}Stage B: Joint Equity-Utilization Adaptive Phased Rollout Optimization}{216}{section.48}%
+\contentsline {section}{\numberline {6.4}Stage C: Meso-to-Micro Site Translation Protocol}{216}{section.49}%
+\contentsline {section}{\numberline {6.5}Comparison with Existing Approaches}{217}{section.50}%
+\contentsline {section}{\numberline {6.6}Study Area and Data Requirements}{218}{section.51}%
+\contentsline {chapter}{\numberline {7}Preliminary Study}{219}{chapter.52}%
+\contentsline {section}{\numberline {7.1}Rethinking Spatial Units in BEV Fast Charging Planning: A Meso-Level Mobility-Based Approach}{219}{section.53}%
+\contentsline {subsection}{\numberline {7.1.1}Introduction}{219}{subsection.54}%
+\contentsline {subsection}{\numberline {7.1.2}Literature Review}{222}{subsection.55}%
+\contentsline {subsection}{\numberline {7.1.3}Methodology}{225}{subsection.57}%
+\contentsline {subsubsection}{\numberline {7.1.3.1}Preliminaries}{225}{subsubsection.58}%
+\contentsline {subsubsection}{\numberline {7.1.3.2}From centrelines to arterial zones}{226}{subsubsection.60}%
+\contentsline {subsubsection}{\numberline {7.1.3.3}From \gls {fsa}-level \gls {bev} counts to arterial zones' \gls {bev} densities}{227}{subsubsection.63}%
+\contentsline {subsubsection}{\numberline {7.1.3.4}Graph construction and hop distance}{229}{subsubsection.77}%
+\contentsline {subsubsection}{\numberline {7.1.3.5}Weighted $n$-hop smoothing}{231}{subsubsection.84}%
+\contentsline {subsubsection}{\numberline {7.1.3.6}Ridge paths as \gls {bev} activity backbones}{232}{subsubsection.87}%
+\contentsline {paragraph}{Ridge path extraction}{232}{section*.88}%
+\contentsline {subsubsection}{\numberline {7.1.3.7}Graph-based proximity evaluation}{235}{subsubsection.107}%
+\contentsline {paragraph}{Charger capacity density as supply proxy}{235}{section*.108}%
+\contentsline {paragraph}{Weighted proximity distance metric}{237}{equation.115}%
+\contentsline {paragraph}{Proximity Evaluation Algorithm}{238}{equation.116}%
+\contentsline {subsubsection}{\numberline {7.1.3.8}Evaluating charger–activity spatial alignment}{238}{subsubsection.124}%
+\contentsline {paragraph}{Null distribution construction}{238}{section*.125}%
+\contentsline {paragraph}{Elbow analysis for convergence detection}{239}{equation.128}%
+\contentsline {subsection}{\numberline {7.1.4}Case study}{241}{subsection.133}%
+\contentsline {subsubsection}{\numberline {7.1.4.1}Study area and datasets}{241}{subsubsection.134}%
+\contentsline {subsubsection}{\numberline {7.1.4.2}Arterial zone extraction}{241}{subsubsection.135}%
+\contentsline {subsubsection}{\numberline {7.1.4.3}Arterial zones' \gls {bev} densities}{242}{subsubsection.138}%
+\contentsline {subsubsection}{\numberline {7.1.4.4}Graph constraction}{244}{subsubsection.141}%
+\contentsline {paragraph}{Graph-theoretic analysis of the arterial adjacency network}{244}{section*.142}%
+\contentsline {paragraph}{Ridge path extraction}{246}{section*.142}%
+\contentsline {subsubsection}{\numberline {7.1.4.5}Proximity analysis between ridge zones and the \gls {dcfc} network}{248}{subsubsection.146}%
+\contentsline {subsection}{\numberline {7.1.5}Conclusion}{250}{subsection.151}%
+\contentsline {subsection}{\numberline {7.1.6}Future directions}{252}{subsection.152}%
