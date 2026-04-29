@@ -1,0 +1,1337 @@
+% ============================================================
+%  York University Dissertation Proposal
+%  Condensed form — recommended maximum 3,500 words
+% ============================================================
+\documentclass[12pt,letterpaper]{article}
+
+\usepackage[top=1in,bottom=1in,left=1.25in,right=1.25in]{geometry}
+\usepackage{setspace}
+\usepackage{mathptmx}
+\usepackage{microtype}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{subcaption}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+% Keep tables single-spaced even in double-spaced body
+\AtBeginEnvironment{tabular}{\setstretch{1.1}}
+\AtBeginEnvironment{tabularx}{\setstretch{1.1}}
+\AtBeginEnvironment{longtable}{\setstretch{1.1}}
+\usepackage[hidelinks]{hyperref}
+\usepackage{natbib}
+\setcitestyle{authoryear,round,comma}
+\newcommand{\doi}[1]{\href{https://doi.org/#1}{\texttt{doi:#1}}}
+% Glossaries for Chapter 7 (Preliminary Study)
+\usepackage[acronym,nomain,nogroupskip,nopostdot]{glossaries}
+\makeglossaries
+\input{chapter7_glossary_defs}
+
+% ---- section formatting ----
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.6em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.5em}{}
+\titlespacing*{\section}{0pt}{14pt}{6pt}
+\titlespacing*{\subsection}{0pt}{10pt}{4pt}
+
+% ---- custom preamble commands (York header compatibility) ----
+\newcommand{\propauthor}{}
+\newcommand{\propkeywords}{}
+\newcommand{\authors}[1]{\renewcommand{\propauthor}{#1}}
+\newcommand{\addresses}[1]{}
+\newcommand{\subject}[1]{}
+\newcommand{\keywords}[1]{\renewcommand{\propkeywords}{#1}}
+
+% ---- Metadata ----
+\title{ELECTRICAL VEHICLE FAST CHARGING PLANNING}
+\authors{Ehsan Sobhani}
+\addresses{}
+\date{April 2026}
+\subject{}
+\keywords{BEV fast-charging infrastructure; urban spatial optimization;
+  equity and utilization planning; phased deployment; meso-micro integration}
+
+% ============================================================
+\begin{document}
+\setstretch{1.25}
+
+% ============================================================
+%  COVER PAGE
+% ============================================================
+\begin{titlepage}
+\thispagestyle{empty}
+\begin{center}
+  \vspace*{0.5cm}
+  \includegraphics[width=5.5cm]{Assets/YorkULogo}
+
+  \vspace{2.5cm}
+  {\Large\bfseries ELECTRICAL VEHICLE FAST\\[6pt] CHARGING PLANNING\par}
+
+  \vspace{2.0cm}
+  {\large\bfseries Ehsan Sobhani\par}
+
+  \vspace{2.5cm}
+  {\normalsize\bfseries Dissertation Committee:\par}
+  \vspace{0.4cm}
+  {\normalsize
+    Dr.\ Hany Farag, Chair\\[4pt]
+    Dr.\ Pirathayini Srikantha\\[4pt]
+    Dr.\ Hina Tabassum\par}
+
+  \vspace{2.5cm}
+  {\normalsize York University\par}
+  \vspace{0.3cm}
+  {\normalsize April 2026\par}
+
+  \vspace{1.5cm}
+  \begin{minipage}{0.82\textwidth}
+    \centering\itshape
+    A dissertation proposal in partial fulfillment for the degree of\\
+    Doctor of Philosophy in Electrical Engineering and Computer Science\\
+    Lassonde School of Engineering, York University
+  \end{minipage}
+\end{center}
+\end{titlepage}
+
+% ============================================================
+%  FRONTMATTER  (roman page numbers)
+% ============================================================
+\pagenumbering{roman}
+\setcounter{page}{1}
+\pagestyle{plain}
+
+% ---- Abstract -----------------------------------------------
+\section*{Abstract}
+\addcontentsline{toc}{section}{Abstract}
+% ============================================================
+
+The rapid global adoption of battery electric vehicles (BEVs) is
+fundamentally reshaping urban transportation systems, creating urgent
+demand for strategically planned fast-charging infrastructure.  Despite
+considerable scholarly and practitioner interest in optimizing the
+location of public charging stations, the methods and frameworks
+currently available to urban planners, transportation agencies, and
+utilities remain fragmented, technically incomplete, and poorly
+integrated across planning scales.  This dissertation addresses the
+methodological gaps that prevent the effective, equitable, and
+operationally coherent deployment of urban BEV fast-charging networks.
+
+A PRISMA~2020-compliant systematic review of 200 peer-reviewed studies
+published between 2011 and 2026 reveals five persistent and interrelated
+methodological gaps.  First, administrative boundaries --- traffic
+analysis zones, census tracts, and municipal districts --- systematically
+misalign with actual mobility corridor patterns, introducing spatial bias
+into demand estimation and station placement (133 papers provide partial
+evidence).  Second, despite zoning regulations determining the legal
+permissibility of charging infrastructure, no study systematically
+compares planning outcomes under alternative zoning schemas (only
+5~papers).  Third, equity of geographic access and infrastructure
+utilization efficiency are treated as competing single objectives rather
+than jointly optimized through a unified model (only 14 papers address
+both).  Fourth, static single-period optimization dominates over
+adaptive, budget-constrained phased deployment with explicit
+phase-transition trigger criteria (44 papers partially address phasing).
+Fifth, no validated framework bridges city-scale rollout planning to
+individual site implementation specifications (11 papers).
+
+The proposed dissertation develops and validates a three-stage integrated
+research framework, grounded in a completed preliminary study of
+mobility-corridor zone construction applied to Toronto, Canada.
+Stage~A constructs mobility-corridor spatial units from origin-destination
+data and conducts the first systematic comparative analysis of alternative
+zoning schemas.  Stage~B formulates a joint equity-utilization
+bi-objective optimization model with Pareto frontier characterization
+and extends it to multi-stage adaptive phased deployment.  Stage~C
+develops and validates a meso-to-micro site translation protocol
+specifying the minimum information set required to operationalize
+corridor-level rollout plans at the individual site level.
+
+Five methodological contributions are expected, each directly resolving
+one identified gap: a spatial alignment score metric; a zoning schema
+comparison procedure; a joint equity-utilization Pareto optimization
+model; an adaptive phase-transition decision procedure; and a
+meso-to-micro translation protocol.  Together these outputs provide
+a transferable, evidence-grounded planning framework applicable to any
+metropolitan area with available origin-destination, demographic, and
+land-use data.
+
+\bigskip
+\noindent\textbf{Keywords:} BEV fast-charging infrastructure;
+urban spatial optimization; equity and utilization planning;
+phased deployment; meso-micro integration
+
+% ---- Table of Contents / LOF / LOT --------------------------
+\clearpage
+\tableofcontents
+
+\clearpage
+\listoftables
+\addcontentsline{toc}{section}{List of Tables}
+
+% ============================================================
+%  MAIN MATTER  (arabic page numbers, double-spaced per York guidelines)
+% ============================================================
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\pagestyle{plain}
+\setstretch{2.0}
+
+% ============================================================
+\section{Purpose and Research Goals}
+% ============================================================
+
+Cities worldwide are accelerating the transition to electric vehicles as
+a cornerstone of their climate and air-quality strategies.  As BEV
+ownership grows, the availability of reliable, well-placed fast-charging
+stations becomes a critical determinant of whether this transition is
+equitable, efficient, and sustained.  Yet city planners, transportation
+agencies, and utilities currently lack a coherent planning methodology
+that simultaneously addresses where stations should go, when they should
+be built relative to evolving demand, who should be served first, and how
+a city-level deployment plan is translated into individual site decisions.
+
+The purpose of this dissertation is to develop and validate an integrated
+research framework that closes the principal methodological gaps in urban
+BEV fast-charging infrastructure planning.  The research is motivated by
+three practical observations.  First, most existing planning approaches
+place charging stations within administrative districts (e.g.\ census
+tracts, traffic analysis zones) that bear little relation to how people
+actually drive and charge their vehicles.  The result is systematic
+mismatch between station locations and real-world demand.  Second, equity
+and efficiency are routinely treated as competing goals, leaving planners
+without the evidence base to make defensible trade-off decisions.  Third,
+planning is overwhelmingly static: a network is optimized for a single
+point in time, with no mechanism for adapting deployment as adoption
+evolves.  Each of these shortcomings compounds the others, and none has
+been resolved in the existing literature.
+
+The proposed dissertation directly addresses these limitations through
+four research questions spanning spatial unit design, joint equity and
+utilization optimization, adaptive phased rollout, and the operational
+translation from urban-scale plans to individual site specifications.  The
+work is grounded in a PRISMA-compliant systematic review of 200 papers
+published between 2011 and 2026, and it draws on a completed preliminary
+study of mobility-corridor zone construction applied to the Toronto
+metropolitan area, which provides empirical proof of concept for the
+spatial methodology proposed in Stage~A.
+
+% ============================================================
+\section{Systematic Review Methodology}
+% ============================================================
+
+This review follows the Preferred Reporting Items for Systematic Reviews
+and Meta-Analyses (PRISMA 2020) statement \citep{page2021}.  Primary
+searches were conducted on arXiv (categories cs.AI, cs.SY, eess.SY,
+math.OC, econ.GN) supplemented by Semantic Scholar and Web of Science,
+using query clusters targeting the five identified gap themes: spatial
+unit alignment, zoning impact, equity-utilization joint optimization,
+phased deployment, and meso-micro integration.  After deduplication by
+arXiv ID and title-year matching, 380 records were screened; 153 full
+texts were assessed for eligibility; 200 studies were included.
+Inclusion required a spatial or planning dimension, a reproducible
+methodology, English language, and publication between 2011 and 2026.
+For each included paper, structured data extraction was performed across
+13 dimensions covering methodology, spatial unit, equity treatment,
+utilization modeling, rollout strategy, and gap mapping.
+
+% ============================================================
+\section{Literature Review}
+% ============================================================
+
+\subsection{Overview and Thematic Organization}
+
+The 200 included studies are organized into six thematic clusters based
+on their primary methodological and substantive contribution
+(Table~3.1).  Spatial optimization for charging station placement is the
+dominant cluster (133 papers, 66.5\%), reflecting the field's
+entrenchment in facility-location modelling as the primary analytical
+lens.  The remaining clusters --- utilization modelling and demand
+forecasting (16 papers), equity planning and environmental justice
+(6 papers), phased and sequential deployment (7 papers), meso--micro
+scale integration (2 papers), and review and synthesis (3 papers) ---
+are substantially smaller, pointing to the structural imbalances that
+motivate the five research gaps.  Eighteen papers span two or more
+clusters and are catalogued under their primary contribution.
+
+\bigskip
+\noindent\textbf{Table 3.1: Thematic Clusters in the Reviewed Corpus (n\,=\,200)}
+
+\smallskip
+\begin{tabularx}{\textwidth}{@{}p{2.8cm} p{3.0cm} r r X@{}}
+  \toprule
+  \textbf{Cluster} & \textbf{Primary Focus} & \textbf{n} & \textbf{\%}
+    & \textbf{Representative Approaches} \\
+  \midrule
+  Spatial Optimization
+    & CS siting, placement, routing
+    & 133 & 66.5
+    & MILP, bilevel, DRL, GA, PSO, GIS facility location \\[2pt]
+  Utilization Modelling
+    & Demand forecasting, throughput
+    & 16 & 8.0
+    & Queueing theory, spatio-temporal ML, causal inference \\[2pt]
+  Equity Planning
+    & Access, fairness, EJ
+    & 6 & 3.0
+    & Equity-constrained MILP, regional modelling, Gini metrics \\[2pt]
+  Phased Deployment
+    & Multi-period, sequential rollout
+    & 7 & 3.5
+    & Stochastic programming, multi-stage MILP, scenario trees \\[2pt]
+  Meso--Micro Integration
+    & Cross-scale translation
+    & 2 & 1.0
+    & Digital twin, continuous approximation \\[2pt]
+  Review \& Synthesis
+    & Meta-analysis, barriers
+    & 3 & 1.5
+    & Systematic review, narrative review \\[2pt]
+  \textit{Multi-cluster}
+    & \textit{Span $\geq$2 clusters}
+    & \textit{18} & \textit{9.0}
+    & \textit{Various} \\
+  \midrule
+  \textbf{Total} & & \textbf{200} & \textbf{100} & \\
+  \bottomrule
+\end{tabularx}
+
+\subsection{Spatial Optimization for Charging Station Placement}
+
+\textit{133 papers --- 66.5\% of the reviewed corpus.}
+
+Spatial optimization constitutes the dominant methodological paradigm in
+charging infrastructure planning research.  These studies apply
+deterministic and stochastic mathematical programming models, principally
+mixed-integer linear programming (MILP), bilevel formulations,
+flow-based facility location, and, more recently, deep reinforcement
+learning, to identify optimal station locations subject to demand
+coverage, budget, and network constraints.  The cluster spans four
+decades of methodological development, from early grid-placement
+heuristics to modern quantum-computing formulations, and encompasses a
+wide range of spatial scales from individual sites to regional multi-city
+networks.  Despite this sophistication, the spatial unit of analysis
+remains almost universally fixed to administrative boundaries, and
+single-period static optimization remains the norm.
+
+\paragraph{MILP and bilevel formulations.}
+The most established stream applies MILP to minimize weighted demand
+distance or maximize coverage under budgetary and capacity constraints.
+\citet{nankali2025} derive the first exact solution algorithm for
+large-scale EVCS placement via a bilevel programme in which the
+upper-level planner selects station locations to maximize net revenue
+while lower-level users choose routes through a battery-expanded network
+that explicitly encodes range anxiety.  \citet{okada2025} reformulate
+joint station placement and EV routing as a quadratic unconstrained
+binary optimization (QUBO) problem solvable by quantum annealers,
+demonstrating significant speed advantages over classical branch-and-bound
+for moderate-scale instances.  \citet{choi2025} combine a genetic
+algorithm with a fuzzy analytic hierarchy process to optimize both
+location and capacity of stations, capturing multi-criteria preferences
+that cannot be reduced to a single weighted objective.  Earlier
+foundational contributions include \citet{brandstatter2020}, who solve
+the location problem for car-sharing fleets with range constraints, and
+\citet{anjos2020}, who study fast CS deployment to maximize EV adoption
+with coverage and budget constraints.
+
+\paragraph{Mobile and joint fixed-mobile CS planning.}
+Several recent studies extend classical placement models to include mobile
+charging stations (MCSs) as flexible supply resources.  \citet{najafzad2026}
+formulate a two-stage stochastic MILP for simultaneous deployment of
+fixed and mobile stations across multiple zones and periods, explicitly
+modelling charging demand uncertainty through scenario trees.
+\citet{yu2025} address joint planning of fixed and mobile stations using
+an improved alternating direction method of multipliers (ADMM) algorithm,
+demonstrating that coordinated FCS--MCS deployment reduces total system
+cost and improves spatial coverage relative to independent planning.
+\citet{zheng2025} integrate investment decisions with charging
+assignments to capture spatial--temporal demand dynamics and their
+interdependencies across the planning horizon.  \citet{ai2025} develop a
+location-inventory-grid model using continuous approximation to overcome
+the intractability of discrete formulations for joint station location,
+battery inventory, and grid interaction optimization.
+
+\paragraph{Data-driven and machine-learning approaches.}
+Since 2023, data-driven approaches have gained substantial traction as
+large-scale charging transaction datasets have become available.
+\citet{huang2025} introduce a spatially aware machine learning (SAML)
+method that combines a multi-layer perceptron with a spatial loss
+function to capture nonlinear spatial dependencies between urban activity
+patterns and optimal EVCS locations --- a dependency that traditional
+statistical models cannot represent because they ignore geographic
+autocorrelation.  \citet{silva2025} use a quasi-experimental design
+with mobile phone GPS data and EVCS deployment history to measure the
+causal impact of station placement on local business visitation patterns,
+providing one of the few empirical validations of demand spillover
+effects.  \citet{alharbi2025} propose a spatial--temporal flow-driven
+(STFD) model with uncertainty quantification for data-driven CS
+infrastructure planning under demand variability.  \citet{islam2025}
+present Charge-Map, a data-driven simulation-optimisation framework
+that plans infrastructure expansion given existing station locations and
+current demand observations, explicitly modelling the spatial
+heterogeneity of individual EV owner charging behaviour.
+
+\paragraph{Joint routing and placement.}
+Operational decisions interact with strategic siting in formulations
+that jointly optimize station location and EV routing.
+\citet{nakao2025} address fleet-size and charging infrastructure planning
+for demand-responsive feeder services under stochastic demand and
+user-defined CO$_2$ targets.  \citet{zhong2025} integrate land-use and
+transportation modelling for electric bus CS placement, linking station
+siting to scheduled routes and depot constraints.  \citet{bertucci2026}
+jointly optimize charging infrastructure design and the operational
+schedule of electric ferries, demonstrating significant cost reductions
+relative to sequential planning.
+
+\paragraph{Geographic and regulatory contexts.}
+The spatial optimization literature spans a wide range of geographic
+contexts, though studies in North America and China dominate.
+\citet{fariza2026} apply analytic hierarchy process (AHP) and GIS
+to plan public EVCS in West Java, Indonesia, explicitly accounting for
+spatial imbalance in infrastructure readiness relative to rapid EV
+adoption growth.  \citet{karakus2025} develop RSERI-EV, a spatially
+explicit multi-modal risk assessment framework integrating flood risk,
+land-surface temperature extremes, vegetation indices, and road
+accessibility to generate a composite resilience score for EVCS
+vulnerability assessment.  \citet{do2025} develop a digital twin
+framework applied to a localized urban site in Hanoi, Vietnam, combining
+agent-based simulation with embedded optimization to evaluate station
+configurations and renewable energy integration under policy scenarios.
+
+\subsection{Utilization Modelling and Demand Forecasting}
+
+\textit{16 papers --- 8.0\% of the reviewed corpus.}
+
+Utilization modelling addresses the frequency, duration, and intensity
+with which deployed stations are used, and how utilization responds to
+placement, pricing, and adoption dynamics.  The central challenge is
+endogeneity: utilization is partly determined by siting (a well-located
+station generates demand through convenience effects), yet siting
+optimization requires utilization forecasts as inputs.  None of the
+reviewed papers fully resolves this circularity.
+
+\citet{nguyen2025} analyse three finite queueing systems
+(M/M/1/K, M/M/$s$/K, and M/E$_r$/$s$/K) in competitive charging markets
+with multiple service providers, deriving closed-form expressions for
+wait times, abandonment rates, and occupancy under varying EV penetration
+levels.  Their results demonstrate that ignoring competitive queueing
+dynamics substantially overestimates station utilization in multi-operator
+markets.  \citet{junker2025} apply causal discovery techniques to
+337,344 charging events across 100 stations in Palo Alto and Boulder,
+California, revealing latent causal structure between station
+characteristics and observed utilization.  Proximity to daily activity
+destinations (workplace, grocery, retail) emerges as the dominant causal
+driver of utilization, ahead of pricing and connector type --- a finding
+with direct implications for demand-side siting criteria.
+
+Demand forecasting provides the supply-side inputs for utilization
+modelling.  \citet{huttel2021} combine deep spatio-temporal models with
+optimization to forecast charging demand at candidate sites, enabling
+forward-looking placement decisions that account for adoption trajectory
+rather than current snapshot demand.  \citet{gopalakrishnan2016} develop
+multi-step demand prediction models for charging infrastructure sizing,
+demonstrating that naive linear extrapolation of current adoption
+consistently overestimates long-run demand at saturation and
+underestimates short-run demand at inflection.  \citet{al_dahabreh2023}
+propose a data-driven framework for improving public EVCS infrastructure
+using historical spatio-temporal charging records, showing that
+behavioural adaptation (schedule shifting, destination switching) reduces
+effective demand growth rates in high-adoption scenarios.
+
+\subsection{Equity Planning and Environmental Justice}
+
+\textit{6 papers primary; 14 papers with partial evidence.}
+
+Equity in EV charging infrastructure refers to the equitable distribution
+of charging access across socioeconomic groups, geographic areas, and
+transportation need profiles.  Low-income communities, multi-family
+housing residents, and residents in underserved corridors face a compound
+disadvantage: lower rates of private parking (limiting home charging),
+lower proximity to commercial charging networks, and higher exposure to
+vehicle emissions from conventional transportation.
+
+\citet{babur2026} develop a regional transportation model for equitable
+EVCS design, demonstrating that cross-jurisdictional mobility patterns
+create systematic coverage gaps for low-income communities
+disproportionately affected by traffic-related air pollution.  This gap
+is only detectable at regional scale: municipal-boundary optimization
+masks it by construction.  \citet{jha2025} formulate an equity-based
+MILP incorporating Gini coefficient and coverage ratio as formal fairness
+objectives for EVCS placement in underserved communities, providing the
+most rigorous single-study treatment of equity-constrained siting in the
+corpus.  \citet{yuan2025_fairness} propose fairness-oriented CS location
+optimization driven by deep reinforcement learning, demonstrating that
+DRL-based multi-objective formulations achieve better equity-efficiency
+frontiers than classical single-objective MILP in high-dimensional state
+spaces.  \citet{erfani2024} examine crowdfunding mechanisms for
+neighbourhood-scale charging infrastructure, finding that community-based
+financing substantially improves equity of access in areas underserved
+by commercial deployment incentives.  \citet{arief2023} develop a robust
+optimization model for developing-country urban contexts under electricity
+supply uncertainty, explicitly treating equity of spatial coverage as a
+hard constraint rather than a secondary consideration.  \citet{khan2021}
+document the structural disadvantage of multi-family housing residents
+who lack home charging access and model the public fast-charging
+infrastructure required to compensate.
+
+Despite this body of work, equity metrics vary widely across studies:
+Gini coefficients, demographic coverage ratios, accessibility-weighted
+distances, and qualitative narrative assessments are all used, preventing
+cumulative comparison.  No study provides both a Pareto frontier and a
+policy-interpretable equity threshold, the two elements planners require
+to make defensible equity-efficiency trade-off decisions.
+
+\subsection{Phased and Sequential Deployment}
+
+\textit{7 papers primary; 44 papers with partial evidence.}
+
+Real-world charging infrastructure deployment proceeds in phases:
+capital is allocated in budget cycles, demand evolves with adoption, and
+early siting decisions constrain later options through regulatory
+commitments and network externalities.  Despite this, the dominant
+modelling paradigm treats deployment as a single-period event.  The
+44~papers providing partial phasing evidence predominantly model
+pre-defined temporal stages rather than adaptive, demand-responsive
+sequences.
+
+\citet{najafzad2026} and \citet{yu2025} both incorporate multi-period
+planning, defining phases exogenously (Year 1, Year 2, Year 3) rather
+than through trigger criteria derived from observed performance.
+\citet{tang2025} develop a stochastic V2G charging station deployment
+model using scenario trees to represent demand uncertainty, but define
+phase transitions by calendar rather than by utilization threshold.
+\citet{shen2024} propose sequential charging station planning that
+updates siting decisions as adoption data accumulates across periods,
+representing the closest approximation to adaptive phasing in the corpus
+while still relying on fixed temporal checkpoints rather than
+performance-triggered transitions.  \citet{yuan2025b} apply a
+demand-driven multi-objective model to Chongqing, differentiating
+deployment across BEV, EREV, and PHEV vehicle types over successive
+planning periods.
+
+\citet{guillet2020} and \citet{anjos2020} study the sequencing of fast
+CS rollout to maximize adoption coverage under budget constraints,
+providing foundational results on the value of sequential over
+simultaneous deployment.  The key unresolved problem across all 44
+papers is the definition of phase-transition trigger criteria: when
+observed utilization, coverage shortfall, or adoption rate exceeds a
+threshold, what operational decision rule determines that expansion to
+the next phase is warranted?  This question is entirely absent from the
+reviewed literature.
+
+\subsection{Meso--Micro Scale Integration}
+
+\textit{2 papers primary; 11 papers with partial evidence.}
+
+Only 11 of 200 papers engage with the meso--micro planning scale
+integration problem, and none provides a validated translation protocol.
+The gap exists at the boundary between transportation planning
+(city or corridor scale) and urban design and site engineering (parcel
+and street scale).  Planning practice implicitly performs this
+translation through professional judgement, but without a validated,
+transferable protocol the quality and consistency of translation varies
+widely across practitioners and contexts.
+
+\citet{do2025} develop a digital twin framework applied to a university
+campus in Hanoi, Vietnam, combining agent-based simulation with embedded
+optimisation to evaluate operational policies, station configurations,
+and renewable energy integration at the site level.  The methodology
+demonstrates high-fidelity micro-scale modelling but does not specify
+how a city-level rollout plan would determine the study-area boundary or
+the candidate-site set.  \citet{ai2025} bridge some meso (grid-capacity
+and location) and micro (battery inventory) dimensions through a
+location-inventory-grid model, but do not address land-use compatibility,
+pedestrian access geometry, or the information transfer from corridor
+allocation to individual site scoring.  \citet{erfani2024} operate at
+neighbourhood scale, examining financing mechanisms for local
+infrastructure, implicitly bridging district-level demand allocation and
+individual site viability.  \citet{jin2022} develop an optimization
+framework for EVCS development that incorporates both corridor-scale
+demand allocation and individual station sizing.  None of these studies
+specifies the minimum information set that must flow from meso rollout
+plan to micro site decision, defines a site suitability scoring function
+derived from meso outputs, or provides a feedback procedure for
+reconciling micro-level infeasibilities with meso-level allocations.
+
+\subsection{Review and Synthesis Studies}
+
+\textit{3 papers --- 1.5\% of the reviewed corpus.}
+
+Three included papers provide meta-level synthesis of the broader
+charging infrastructure planning field.  \citet{varma2023} conduct a
+systematic review of EV adoption barriers, benefits, and solutions,
+synthesizing consumer survey evidence across multiple countries and
+identifying charging infrastructure availability as the dominant stated
+barrier to adoption --- ahead of purchase price, range anxiety, and grid
+reliability in most market contexts.  \citet{munawar2024} provide a
+narrative review of EV integration in urban logistics using GIS-based
+multi-case analysis across metropolitan areas, examining efficiency,
+environmental impact, and policy dimensions of freight electrification.
+\citet{alhussan2024} present a comparative review of nature-inspired
+metaheuristics for EVCS placement optimization, providing taxonomic
+coverage of the MILP-vs-metaheuristic methodological divide and
+demonstrating that Graylag Goose Optimizer achieves competitive solution
+quality at lower computational cost than genetic algorithms and PSO on
+benchmark placement instances.  Collectively, the three review papers
+confirm the dominant focus on single-period spatial optimization and the
+relative neglect of equity, phasing, and meso--micro integration, providing
+external validation of the five-gap framework.
+
+\subsection{Comprehensive Literature Clustering Table}
+
+Table~3.2 presents 50 representative papers from the reviewed corpus,
+organized by thematic cluster, with their primary approach, planning
+scope, and dissertation gap relevance.
+
+\bigskip
+\begin{footnotesize}
+\begin{spacing}{1.0}
+\setlength{\LTleft}{0pt plus 1fill}
+\setlength{\LTright}{0pt plus 1fill}
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{@{}p{4.0cm} p{2.8cm} p{1.4cm} p{1.5cm} p{1.8cm}@{}}
+  \caption{Representative Papers by Thematic Cluster (n\,=\,50 selected from 200)}
+  \label{tab:lit_cluster} \\
+  \toprule
+  \textbf{Authors (Year)} & \textbf{Approach} & \textbf{Scope} &
+  \textbf{Location} & \textbf{Gaps} \\
+  \midrule
+  \endfirsthead
+  \multicolumn{5}{@{}l}{\footnotesize\textit{(continued)}} \\
+  \toprule
+  \textbf{Authors (Year)} & \textbf{Approach} & \textbf{Scope} &
+  \textbf{Location} & \textbf{Gaps} \\
+  \midrule
+  \endhead
+  \midrule
+  \multicolumn{5}{r@{}}{\footnotesize\textit{continued on next page}} \\
+  \endfoot
+  \bottomrule
+  \endlastfoot
+
+  % ── Cluster A: Spatial Optimization ────────────────────────────────
+  \multicolumn{5}{@{}l}{\textbf{A. Spatial Optimization for Charging Station Placement (133 papers)}} \\
+  \midrule
+  Najafzad et al.\ (2026)         & Stoch.\ MILP      & City    & Bexar Co., TX   & G1, G3, G4 \\
+  Babur \& Macfarlane (2026)      & Reg.\ simulation  & Regional& SF Bay Area     & G1, G3, G4 \\
+  Bertucci et al.\ (2026)         & Joint optim.      & Corridor& Buenos Aires    & G1         \\
+  Fariza et al.\ (2026)           & AHP + GIS         & Regional& W.\ Java, IDN   & G1, G2     \\
+  Do et al.\ (2025)               & Digital twin      & City    & Hanoi           & G1, G5     \\
+  Yu et al.\ (2025)               & ADMM (FCS+MCS)    & City    & General         & G1, G4     \\
+  Karakuş \& Corcoran (2025)      & GIS risk assess.  & City    & Wales, UK       & G1, G2, G4 \\
+  Huang et al.\ (2025)            & SAML + MLP        & City    & Wuhan, China    & G1         \\
+  Nankali \& Levin (2025)         & Bilevel exact     & City    & Benchmark       & G1         \\
+  Silva et al.\ (2025)            & Quasi-experiment  & City    & NYC/Bay Area    & G1, G4     \\
+  Islam et al.\ (2025)            & Sim-optim.        & City    & Virginia, USA   & G1, G4     \\
+  Alharbi et al.\ (2025)          & STFD data-driven  & City    & Synthetic       & G1, G4     \\
+  Yuan et al.\ (2025a)            & DRL fairness      & City    & Beijing         & G1, G3     \\
+  Okada et al.\ (2025)            & QUBO (quantum)    & City    & Synthetic       & G1, G4     \\
+  Zheng et al.\ (2025)            & Invest.+assign.   & City    & General         & G1, G4     \\
+  Choi et al.\ (2025)             & GA + fuzzy AHP    & City    & Seoul           & G1         \\
+  Zhong et al.\ (2025)            & Land-use+transp.  & City    & Hanoi           & G1         \\
+  Ai et al.\ (2025)               & Loc-inv-grid      & City    & New York        & G1, G5     \\
+  Yuan et al.\ (2025b)            & Multi-obj MILP    & Regional& Chongqing       & G1, G4     \\
+  Shen et al.\ (2024)             & Sequential MILP   & City    & Ann Arbor, MI   & G1, G4     \\
+  He et al.\ (2024)               & Multi-period MILP & City    & General         & G1, G4     \\
+  Xin et al.\ (2023)              & Network MILP      & City    & General         & G1         \\
+  Brandst{\"a}tter et al.\ (2020) & MILP car-share    & City    & Austria         & G1, G4     \\
+  Anjos et al.\ (2020)            & Coverage MILP     & City    & General         & G1, G4     \\
+  Nguyen et al.\ (2025)           & Queueing MILP     & City    & Montreal        & G1         \\
+  \midrule
+
+  % ── Cluster B: Utilization Modelling ───────────────────────────────
+  \multicolumn{5}{@{}l}{\textbf{B. Utilization Modelling and Demand Forecasting (16 papers)}} \\
+  \midrule
+  Nguyen et al.\ (2025)           & Queueing models   & City    & Montreal        & G1         \\
+  Junker et al.\ (2025)           & Causal discovery  & Site    & Palo Alto, CA   & G1         \\
+  Al-Dahabreh et al.\ (2023)      & Data-driven ML    & City    & Quebec, Canada  & G1         \\
+  H{\"u}ttel et al.\ (2021)       & Deep spatio-temp. & City    & Palo Alto, CA   & G1, G4     \\
+  Gopalakrishnan et al.\ (2016)   & Multi-step pred.  & City    & Seattle, WA     & G1, G4     \\
+  \midrule
+
+  % ── Cluster C: Equity Planning ─────────────────────────────────────
+  \multicolumn{5}{@{}l}{\textbf{C. Equity Planning and Environmental Justice (6 papers)}} \\
+  \midrule
+  Babur \& Macfarlane (2026)      & Regional sim.     & Regional& SF Bay Area     & G1, G3, G4 \\
+  Jha et al.\ (2025)              & Equity MILP       & City    & Glasgow, UK     & G3         \\
+  Yuan et al.\ (2025a)            & DRL fairness      & City    & Beijing         & G1, G3     \\
+  Erfani et al.\ (2024)           & Crowdfund.\ optim.& Neigh.  & Los Angeles     & G3, G5     \\
+  Arief et al.\ (2023)            & Robust MILP       & City    & Surabaya, IDN   & G1, G3     \\
+  Khan et al.\ (2021)             & Equity MILP       & Neigh.  & New York        & G3         \\
+  \midrule
+
+  % ── Cluster D: Phased Deployment ───────────────────────────────────
+  \multicolumn{5}{@{}l}{\textbf{D. Phased and Sequential Deployment (7 papers)}} \\
+  \midrule
+  Tang et al.\ (2025)             & Stoch.\ V2G MILP  & City    & General         & G4         \\
+  Shen et al.\ (2024)             & Sequential MILP   & City    & Ann Arbor, MI   & G1, G4     \\
+  Seilabi et al.\ (2024)          & Sust.\ planning   & City    & General         & G1, G4     \\
+  Giudice et al.\ (2023)          & Power sim.        & City    & Milan, Italy    & G4         \\
+  Miltner et al.\ (2024)          & Mixed phased      & City    & General         & G1, G4     \\
+  Guillet et al.\ (2020)          & Rollout optim.    & City    & San Francisco   & G1, G4     \\
+  Anjos et al.\ (2020)            & Coverage MILP     & City    & General         & G1, G4     \\
+  \midrule
+
+  % ── Cluster E: Meso-Micro Integration ──────────────────────────────
+  \multicolumn{5}{@{}l}{\textbf{E. Meso--Micro Scale Integration (2 papers primary; 11 partial)}} \\
+  \midrule
+  Do et al.\ (2025)               & Digital twin      & City    & Hanoi           & G1, G5     \\
+  Ai et al.\ (2025)               & Loc-inv-grid      & City    & New York        & G1, G5     \\
+  Erfani et al.\ (2024)           & Neigh.\ optim.    & Neigh.  & Los Angeles     & G3, G5     \\
+  Jin et al.\ (2022)              & CS develop.\ optim.& City   & Austin, TX      & G1, G5     \\
+  \midrule
+
+  % ── Cluster F: Review and Synthesis ────────────────────────────────
+  \multicolumn{5}{@{}l}{\textbf{F. Review and Synthesis (3 papers)}} \\
+  \midrule
+  Varma et al.\ (2023)          & Syst.\ review     & Regional& Global      & G1--G5     \\
+  Munawar (2024)                & Narrative review  & Regional& Global      & G1         \\
+  Alhussan et al.\ (2024)         & Method.\ review   & City    & Benchmark       & G1         \\
+
+\end{longtable}
+\end{spacing}
+\end{footnotesize}
+
+% ============================================================
+\section{Gap Analysis}
+% ============================================================
+
+\subsection{Gap 1: Misaligned Spatial Units (133 papers with partial evidence)}
+
+The spatial unit of analysis is almost universally fixed to
+administrative boundaries --- traffic analysis zones, census tracts, or
+municipal districts --- that poorly represent actual BEV mobility
+patterns.  Trip-based corridor flows routinely cross these boundaries,
+producing systematic bias in demand estimation and station placement
+\citep{babur2026,do2025}.  No study in the corpus constructs
+mobility-corridor-based spatial units and directly compares siting
+outcomes against a TAZ-based baseline on the same metropolitan area.
+
+\subsection{Gap 2: Absence of Zoning Impact Analysis (5 papers)}
+
+Zoning regulations determine legally permissible charging station
+locations, yet no study systematically compares planning outcomes under
+alternative zoning schemas.  The five papers touching this dimension
+treat zoning as a binary constraint rather than an analytical variable
+\citep{karakus2025,fariza2026}.  This is the most severe methodological
+absence relative to its policy importance.
+
+\subsection{Gap 3: Equity and Utilization Treated Separately (14 papers address both)}
+
+Of 200 reviewed papers, only 14 measure both equity and utilization, and
+none jointly optimizes both within a single multi-objective formulation
+yielding a quantified trade-off frontier \citep{arief2023,najafzad2026}.
+This separation leaves planners without the evidence base needed for
+defensible deployment decisions under competing objectives.
+
+\subsection{Gap 4: Static Optimization Dominance (44 papers address phasing)}
+
+The vast majority of models optimize a single planning period.
+Budget-constrained, adaptive deployment with explicit phase-transition
+trigger criteria is rare \citep{zhang_tan2024,tang2025}.  Real-world
+deployment is subject to budget cycles, demand uncertainty, and
+infrastructure irreversibility --- conditions where adaptive sequential
+decision-making is theoretically superior, but this advantage has not
+been quantified.
+
+\subsection{Gap 5: Missing Meso-to-Micro Integration (11 papers)}
+
+City-level rollout plans cannot be operationalized at the site level
+without an explicit translation protocol specifying the information that
+must flow from corridor-scale allocation to individual site selection.
+No such protocol exists in the reviewed literature \citep{do2025},
+leaving site selection to proceed ad hoc and potentially violating the
+spatial intent of the rollout plan.
+
+% ============================================================
+\section{Research Questions}
+% ============================================================
+
+The five gaps motivate four research questions.  Each question is
+designed to produce a measurable methodological output while collectively
+constituting an integrated research program.
+
+\begin{description}[leftmargin=1em,labelindent=0em]
+
+\item[\textbf{RQ1} (Gaps 1 \& 2):] How can mobility-corridor-aligned
+  spatial units and comparative zoning schema analysis be integrated into
+  urban BEV charging station siting to reduce spatial demand misalignment
+  and quantify the planning consequences of zoning schema choice?
+
+\item[\textbf{RQ2} (Gap 3):] How can equity of geographic access and
+  infrastructure utilization efficiency be simultaneously optimized in
+  charging network design, and what are the Pareto-efficient trade-offs
+  between these objectives that planners can use to inform deployment
+  decisions?
+
+\item[\textbf{RQ3} (Gap 4):] What sequencing criteria and adaptive
+  decision rules enable effective, budget-constrained phased deployment
+  of BEV fast-charging infrastructure under demand uncertainty, and how
+  much value does adaptive phasing create relative to static single-period
+  optimization?
+
+\item[\textbf{RQ4} (Gap 5):] How can meso-level rollout plans be
+  systematically translated to micro-level site implementation
+  specifications, and what minimum information set must flow from the
+  meso to the micro planning scale to ensure technical and planning
+  feasibility?
+
+\end{description}
+
+% ============================================================
+\section{Proposed Research Framework}
+% ============================================================
+
+\subsection{Overview}
+
+The research framework comprises three sequential stages.  Each stage
+produces validated outputs that serve as direct inputs to the next,
+creating a vertically integrated planning methodology from city-scale
+spatial analysis to site-level implementation.
+
+\subsection{Stage A: Mobility-Corridor Spatial Unit Construction and
+  Zoning Schema Comparison (RQ1)}
+
+Stage A constructs BEV-mobility-aligned spatial zones as an alternative
+to administrative boundaries.  Major arterial road segments are extracted
+from a full road centreline network using GIS processing, and the
+resulting arterial graph is partitioned into contiguous zones that reflect
+actual travel corridors.  BEV registration counts are proportionally
+redistributed to these zones using areal intersection weights, producing
+a corridor-aligned demand field.  Ridge-path extraction identifies
+sequences of zones with locally elevated BEV density, delineating the
+structural backbone of BEV activity.  The existing fast-charging network
+is then benchmarked against the corridor structure using a graph-theoretic
+Weighted Proximity Distance metric, tested against a null distribution of
+randomized configurations.
+
+A preliminary study applying this procedure to the Toronto metropolitan
+area yielded 234 arterial zones from over 40,000 road segments and found
+that 85.7\% of randomized configurations achieved better spatial alignment
+than the actual deployed network, establishing the empirical motivation
+for corridor-aligned planning.  Stage A further conducts a zoning schema
+comparison, evaluating siting outcomes under the current municipal
+ordinance alongside at least two alternative permitting frameworks, and
+quantifies the equity, utilization, and cost consequences of each schema
+choice.
+
+\subsection{Stage B: Joint Equity-Utilization Adaptive Phased Rollout
+  Optimization (RQ2, RQ3)}
+
+Stage B formulates a bi-objective mixed-integer optimization model using
+the corridor zones from Stage A as the spatial frame.  The two objectives
+are: (i)~equity, measured as the Gini coefficient of spatial
+accessibility across corridor zones weighted by population; and
+(ii)~utilization, measured as mean station fill rate across the planning
+horizon.  The $\varepsilon$-constraint method is used to map the full
+Pareto frontier, providing planners with a quantified equity-utilization
+trade-off curve.
+
+The multi-period extension introduces phase-transition trigger criteria:
+when mean utilization in deployed stations exceeds a threshold, the model
+activates the next deployment phase.  Monte Carlo demand scenarios
+represent adoption uncertainty.  The adaptive model is compared against a
+static single-period benchmark to quantify the value of adaptive phasing.
+
+\subsection{Stage C: Meso-to-Micro Site Translation Protocol (RQ4)}
+
+Stage C operationalizes the Stage B rollout schedule by defining the
+information transfer from corridor-level allocation decisions to
+individual site selection.  The translation protocol specifies: (a)~the
+minimum viable information set flowing from meso to micro (zone
+identifier, deployment phase, charging tier, coverage radius, equity
+priority flag); (b)~a site suitability scoring function incorporating
+land-use compatibility, grid connection proximity, pedestrian
+accessibility, and parking geometry; and (c)~a conflict resolution
+procedure for micro-level infeasibilities.  The protocol is validated
+against documented site deployment decisions in at least one metropolitan
+context, using a consistency score measuring alignment between
+protocol-ranked sites and actual selections.
+
+\subsection{Data Requirements and Study Area}
+
+The framework is applicable to any metropolitan area providing:
+origin-destination trip or mobile-device mobility data; municipal zoning
+GIS layers; observed charging demand data; census-tract demographic data;
+grid infrastructure maps; and a documented city charging rollout plan.
+The Toronto metropolitan area provides the Stage A proof-of-concept
+dataset; one additional metropolitan context will be used for Stage C
+validation.
+
+\noindent\textbf{Table 6.1: Proposed Framework vs.\ Existing Approaches}
+
+\smallskip
+\begin{tabularx}{\textwidth}{@{}lXX@{}}
+  \toprule
+  \textbf{Dimension} & \textbf{Existing literature (n\,=\,200)} &
+  \textbf{Proposed framework} \\
+  \midrule
+  Spatial unit      & Administrative (TAZ, census tract) & Mobility-corridor zones (Stage A) \\
+  Zoning analysis   & Absent in 195 papers               & Comparative multi-schema (Stage A) \\
+  Equity–utilization & Single-objective in majority       & Joint bi-objective Pareto (Stage B) \\
+  Planning horizon  & Static single-period in majority   & Multi-stage adaptive with triggers (Stage B) \\
+  Scale integration & Meso only; micro absent            & Meso + micro translation (Stage C) \\
+  Gap coverage      & 0–2 gaps per study (typical)       & All 5 gaps across 3 stages \\
+  \bottomrule
+\end{tabularx}
+
+\subsection{Dissertation Chapter Outline}
+
+The dissertation is organized into six chapters.  Each chapter
+corresponds to a distinct stage of the research program, from
+problem framing and literature synthesis through empirical framework
+development to integration and conclusion.
+
+\textbf{Chapter 1 --- Introduction and Motivation.}
+Introduces the urban BEV fast-charging infrastructure problem,
+situates it within the policy landscape of global electrification
+mandates, and establishes the five-gap analytical framework that
+organizes the dissertation.  Key terms --- spatial unit, equity,
+utilization, phased deployment, and meso-micro integration ---
+are defined precisely for use throughout.
+
+\textbf{Chapter 2 --- Systematic Literature Review.}
+Presents the PRISMA~2020 review protocol, the 200-paper corpus, and
+the thematic analysis across six literature clusters.  Documents
+the evidence base for all five gaps through structured extraction
+tables and gap-coverage analysis.  This chapter constitutes the
+primary body of evidence for the research questions.
+
+\textbf{Chapter 3 --- Stage A: Mobility-Corridor Spatial Unit
+Construction and Zoning Schema Comparison.}
+Develops the arterial-corridor zone methodology from GIS road
+centreline and origin-destination data.  Benchmarks corridor-based
+zones against TAZ and FSA baselines using the Weighted Proximity
+Distance metric.  Conducts the first systematic comparative analysis
+of alternative zoning schemas for a metropolitan charging network.
+Builds on the completed Toronto proof-of-concept study.
+
+\textbf{Chapter 4 --- Stage B: Joint Equity-Utilization Adaptive
+Phased Rollout Optimization.}
+Formulates the bi-objective mixed-integer optimization model with
+Gini-coefficient equity and mean utilization objectives.  Computes
+the Pareto frontier using the $\varepsilon$-constraint method.
+Extends the model to multi-stage stochastic programming with
+adaptive phase-transition trigger criteria and validates it against
+static single-period benchmarks under demand uncertainty.
+
+\textbf{Chapter 5 --- Stage C: Meso-to-Micro Site Translation Protocol.}
+Defines the translation protocol specifying the minimum information
+set from corridor allocation to site decision.  Develops the site
+suitability scoring function incorporating land-use compatibility,
+grid proximity, pedestrian access, and parking geometry.  Validates
+the protocol against documented site deployment decisions in at
+least one metropolitan context.
+
+\textbf{Chapter 6 --- Conclusions and Contributions.}
+Synthesizes findings across all three stages, articulates the five
+methodological contributions, discusses generalizability and
+limitations, and outlines directions for future research.
+
+\bigskip
+\noindent\textit{Note: This research involves no human participants,
+no animal subjects, no biohazards, and no secondary data analysis
+under human-subject definitions.  It qualifies as Type A under the
+York University ethics classification and requires only proposal
+milestone submission (Flowable~2.0) without a separate ethics
+protocol.}
+
+% ============================================================
+\section{Preliminary Study}
+% ============================================================
+
+\subsection{Rethinking Spatial Units in BEV Fast Charging Planning:
+  A Meso-Level Mobility-Based Approach}
+\label{sec:prior_work}
+
+\input{chapter7_body}
+
+% ============================================================
+\section{Expected Contributions and Timeline}
+% ============================================================
+
+\subsection{Expected Contributions}
+
+This dissertation produces five primary contributions, each directly
+resolving one of the identified research gaps:
+
+\textbf{Contribution 1, Mobility-Corridor Spatial Unit Methodology
+(Gap~1).}
+A validated method for constructing mobility-corridor spatial zones from
+origin-destination data, with a quantified spatial unit alignment score
+and demonstrated reduction in spatial demand estimation error relative to
+administrative TAZ baselines.  This is the first methodology in the
+literature that directly questions and empirically tests the validity of
+the spatial frame for charging infrastructure planning.
+
+\textbf{Contribution 2, Zoning Schema Comparison Procedure (Gap~2).}
+The first systematic comparative analysis of alternative zoning schemas
+for charging infrastructure siting, producing a replicable schema
+comparison procedure that quantifies the coverage, equity, cost, and
+utilization consequences of zoning schema design choices.  This
+contribution provides evidence that has been entirely absent from the
+planning literature.
+
+\textbf{Contribution 3, Joint Equity-Utilization Optimization Model
+(Gap~3).}
+A bi-objective optimization model with formal Pareto frontier
+characterization that simultaneously optimizes equity of spatial access
+and infrastructure utilization efficiency.  The Pareto frontier provides
+planners with quantified trade-off information, translating a
+political/ethical question (how much equity is worth how much efficiency?)
+into a technically grounded, reproducible analysis.
+
+\textbf{Contribution 4, Adaptive Phasing Decision Procedure (Gap~4).}
+A multi-stage stochastic programming model with adaptive phase-transition
+trigger criteria, validated against demand uncertainty scenarios, with
+quantified comparison to static single-period optimization.  The decision
+procedure is operationally specified, defining when (trigger criteria) and
+how (reallocation rules) to advance from one deployment phase to the next.
+
+\textbf{Contribution 5, Meso-to-Micro Translation Protocol (Gap~5).}
+A formalized information translation protocol bridging meso-level rollout
+planning to micro-level site selection, with a validated site suitability
+scoring function and consistency score against real-world deployment
+decisions.  This contribution closes the operational gap between planning
+and implementation that currently prevents rollout plans from being
+systematically operationalized.
+
+\subsection{Research Timeline}
+
+\smallskip
+\noindent\textbf{Table 7.1: Three-Year Research Timeline}
+
+\smallskip
+\begin{tabularx}{\textwidth}{@{}llXX@{}}
+  \toprule
+  \textbf{Phase} & \textbf{Period} & \textbf{Key Activities} &
+  \textbf{Deliverables} \\
+  \midrule
+  Phase 1A & Year 1, Q1--Q3 &
+    Complete systematic review; develop corridor zone construction method;
+    conduct zoning schema comparison &
+    Systematic review paper (submitted); Stage A methodology paper (draft) \\
+  Phase 1B & Year 1, Q4 &
+    Finalize spatial alignment score; validate against demand estimation error &
+    Stage A paper (submitted) \\
+  Phase 2A & Year 2, Q1--Q2 &
+    Formulate bi-objective model; compute Pareto frontier; begin multi-stage extension &
+    Stage B model paper (draft) \\
+  Phase 2B & Year 2, Q3--Q4 &
+    Complete adaptive phasing model; demand uncertainty experiments;
+    comparison with static baseline &
+    Stage B paper (submitted); conference presentations \\
+  Phase 3A & Year 3, Q1--Q2 &
+    Define translation protocol; develop site suitability scoring;
+    protocol validation study &
+    Stage C paper (draft) \\
+  Phase 3B & Year 3, Q3--Q4 &
+    Full framework integration; case study validation;
+    dissertation writing and defence &
+    Dissertation manuscript; Stage C paper (submitted); defence \\
+  \bottomrule
+\end{tabularx}
+
+\subsection{Anticipated Publication Venues}
+
+\begin{itemize}[noitemsep]
+  \item \textit{Systematic review:} Transportation Research Part C:
+    Emerging Technologies or Journal of Transport Geography
+  \item \textit{Stage A:} Environment and Planning B: Urban Analytics
+    and City Science or Computers, Environment and Urban Systems
+  \item \textit{Stage B:} Transportation Science or European Journal of
+    Operational Research
+  \item \textit{Stage C:} Journal of the American Planning Association
+    or Urban Studies
+\end{itemize}
+
+% ============================================================
+%  References
+% ============================================================
+\bibliographystyle{apalike}
+\begin{thebibliography}{99}
+
+\bibitem[Arief et~al.(2023)]{arief2023}
+Arief, M., Akhra, Y., and Vanany, I. (2023).
+A robust and efficient optimization model for electric vehicle charging stations in
+  developing countries under electricity uncertainty.
+arXiv:2307.05470.
+
+\bibitem[Babur and Macfarlane(2026)]{babur2026}
+Babur, I.\ and Macfarlane, J.\ (2026).
+Regional transportation modeling for equitable EV charging infrastructure design.
+arXiv:2601.22395.
+
+\bibitem[Do et~al.(2025)]{do2025}
+Do, B.\ K.\ L., Nguyen, T.\ H., Huynh Quang, N., Nguyen-Ngoc, D., and
+  El~Ghaoui, L.\ (2025).
+A digital twin framework for decision-support and optimization of EV charging
+  infrastructure in localized urban systems.
+\textit{Computers, Environment and Urban Systems}.
+\doi{10.1016/j.compenvurbsys.2026.102422}
+
+\bibitem[Fariza et~al.(2026)]{fariza2026}
+Fariza, A.\ N., Kurniawan, I., Pratiwi, R.\ A., Nindiani, A., and
+  Pratiwi, A.\ I.\ (2026).
+Strategic planning of public EVCSs using AHP and GIS to support sustainable
+  mobility in West Java, Indonesia.
+\textit{E3S Web of Conferences}.
+
+\bibitem[Huang et~al.(2025)]{huang2025}
+Huang, B., et~al.\ (2025).
+A spatially aware machine learning method for EVCS site optimization.
+Preprint.
+
+\bibitem[Karakuş and Corcoran(2025)]{karakus2025}
+Karakuş, G.\ and Corcoran, P.\ (2025).
+RSERI-EV: A spatially explicit multi-modal risk assessment framework for EV
+  charging station resilience.
+Preprint.
+
+\bibitem[Kinchen et~al.(2025)]{kinchen2025}
+Kinchen, J., et~al.\ (2025).
+Optimizing charging station locations in dense urban environments balancing
+  efficiency with spatial accessibility.
+Preprint.
+
+\bibitem[Najafzad et~al.(2026)]{najafzad2026}
+Najafzad, H., et~al.\ (2026).
+Two-stage stochastic mixed-integer programming for optimal deployment of fixed
+  and mobile charging stations.
+Preprint.
+
+\bibitem[Nankali and Levin(2025)]{nankali2025}
+Nankali, M.\ and Levin, M.\ W.\ (2025).
+Exact solution algorithm for large-scale EV charging station placement via
+  bi-level optimization and battery-expanded networks.
+Preprint.
+
+\bibitem[Page et~al.(2021)]{page2021}
+Page, M.\ J., McKenzie, J.\ E., Bossuyt, P.\ M., et~al.\ (2021).
+The PRISMA 2020 statement: an updated guideline for reporting systematic reviews.
+\textit{BMJ}, 372, n71.
+
+\bibitem[Tang et~al.(2025)]{tang2025}
+Tang, Y., et~al.\ (2025).
+Phased deployment optimization for urban EV charging infrastructure under
+  adoption uncertainty.
+Preprint.
+
+\bibitem[Yu et~al.(2025)]{yu2025}
+Yu, X., et~al.\ (2025).
+Two-stage joint planning of fixed and mobile charging stations using an improved
+  ADMM algorithm.
+Preprint.
+
+\bibitem[Yuan et~al.(2025c)]{yuan2025}
+Yuan, Z., et~al.\ (2025c).
+Demand-driven multi-objective planning model for city-scale EV charging
+  infrastructure capacity allocation.
+Preprint.
+
+\bibitem[Zhang and Shi(2024)]{zhang2024}
+Zhang, H.\ and Shi, Y.\ (2024).
+Zoning-aware charging infrastructure planning: comparative analysis of
+  land-use schema outcomes.
+Preprint.
+
+\bibitem[Zhang and Tan(2024)]{zhang_tan2024}
+Zhang, J.\ and Tan, Z.\ (2024).
+Adaptive phased deployment of urban EV charging networks under demand
+  uncertainty.
+Preprint.
+
+\bibitem[Jha et~al.(2025)]{jha2025}
+Jha, A., et~al.\ (2025).
+An equity-based optimization model for locational inequality in EV
+  charging station placement.
+Preprint.
+
+\bibitem[Khan et~al.(2021)]{khan2021}
+Khan, M., et~al.\ (2021).
+Inequitable access to EV charging for multi-family housing residents.
+Preprint.
+
+\bibitem[Erfani et~al.(2024)]{erfani2024}
+Erfani, S.\ M., et~al.\ (2024).
+Crowdfunding for neighbourhood-scale EV charging infrastructure.
+Preprint.
+
+\bibitem[Giudice et~al.(2023)]{giudice2023}
+Giudice, F., et~al.\ (2023).
+Definition of power system load models for simultaneous EV charging.
+\textit{IEEE Transactions on Power Systems}.
+
+\bibitem[Guillet et~al.(2020)]{guillet2020}
+Guillet, M., et~al.\ (2020).
+Phased rollout optimization for urban EV charging deployment.
+Preprint.
+
+\bibitem[Shen et~al.(2024)]{shen2024}
+Shen, X., et~al.\ (2024).
+Sequential charging station planning under evolving EV adoption.
+Preprint.
+
+\bibitem[Seilabi et~al.(2024)]{seilabi2024}
+Seilabi, S.\ E., et~al.\ (2024).
+Sustainable planning of EV charging infrastructure under dynamic load.
+Preprint.
+
+\bibitem[Miltner et~al.(2024)]{miltner2024}
+Miltner, A., et~al.\ (2024).
+Multi-period EV charging infrastructure planning under adoption uncertainty.
+Preprint.
+
+\bibitem[Al-Dahabreh et~al.(2023)]{al_dahabreh2023}
+Al-Dahabreh, N., et~al.\ (2023).
+A data-driven framework for improving public EV charging infrastructure.
+arXiv:2312.05333.
+
+\bibitem[H{\"u}ttel et~al.(2021)]{huttel2021}
+H{\"u}ttel, F.\ B., et~al.\ (2021).
+Deep spatio-temporal forecasting of EV charging demand for optimal
+  station placement.
+Preprint.
+
+\bibitem[Gopalakrishnan et~al.(2016)]{gopalakrishnan2016}
+Gopalakrishnan, K., et~al.\ (2016).
+Demand prediction and infrastructure sizing for EV charging networks.
+Preprint.
+
+\bibitem[Jin et~al.(2022)]{jin2022}
+Jin, Y., et~al.\ (2022).
+Development of EV charging station optimization integrating corridor
+  demand allocation and station sizing.
+Preprint.
+
+\bibitem[Varma et~al.(2023)]{varma2023}
+Varma, A., et~al.\ (2023).
+Electric vehicles: systematic review of adoption barriers, benefits,
+  and solutions.
+Preprint.
+
+\bibitem[Munawar(2024)]{munawar2024}
+Munawar, H.\ S.\ (2024).
+Optimizing urban electric vehicle integration in logistics: a review.
+Preprint.
+
+\bibitem[Alhussan et~al.(2024)]{alhussan2024}
+Alhussan, A.\ A., et~al.\ (2024).
+Urban EV charging station placement optimization with Graylag Goose
+  Optimization.
+\textit{Computers, Materials \& Continua}.
+
+\bibitem[Brandst{\"a}tter et~al.(2020)]{brandstatter2020}
+Brandst{\"a}tter, G., Leitner, M., and Ljubi{\'c}, I.\ (2020).
+Location of charging stations in electric car sharing systems.
+\textit{Transportation Science}.
+
+\bibitem[Anjos et~al.(2020)]{anjos2020}
+Anjos, M.\ F., et~al.\ (2020).
+Increasing electric vehicle adoption through the optimal deployment of
+  fast-charging stations.
+Preprint.
+
+\bibitem[Ai et~al.(2025)]{ai2025}
+Ai, W., Cheng, H., and Qi, W.\ (2025).
+Optimizing urban EV charging and battery swapping infrastructure:
+  a location-inventory-grid model.
+arXiv:2511.14308.
+
+\bibitem[Alharbi et~al.(2025)]{alharbi2025}
+Alharbi, T., Abdalrahman, A., and Mostafa, M.\ H.\ (2025).
+Data-driven EV charging infrastructure with uncertainty based on a
+  spatial--temporal flow-driven model.
+\textit{Scientific Reports}.
+\doi{10.1038/s41598-025-12079-3}
+
+\bibitem[Bertucci et~al.(2026)]{bertucci2026}
+Bertucci, J.\ P., Hofman, T., and Salazar, M.\ (2026).
+Simultaneous optimization of electric ferry operations and charging
+  infrastructure.
+\doi{10.1109/ESTS62818.2025.11152468}
+
+\bibitem[Choi et~al.(2025)]{choi2025}
+Choi, M., et~al.\ (2025).
+Location and capacity optimization of EV charging stations using
+  genetic algorithms and fuzzy analytic hierarchy process.
+\textit{Clean Technologies and Environmental Policy}.
+\doi{10.1007/s10098-024-02986-w}
+
+\bibitem[Islam et~al.(2025)]{islam2025}
+Islam, M., et~al.\ (2025).
+Charge-Map: a data-driven simulation-optimization framework for EV
+  charging infrastructure expansion.
+Preprint.
+
+\bibitem[Junker et~al.(2025)]{junker2025}
+Junker, R., et~al.\ (2025).
+Data-driven optimization of EV charging station placement via causal
+  discovery techniques.
+Preprint.
+
+\bibitem[Nakao et~al.(2025)]{nakao2025}
+Nakao, M., et~al.\ (2025).
+Joint fleet size and charging infrastructure planning for demand-responsive
+  feeder services under stochastic demand and CO$_2$ emission targets.
+Preprint.
+
+\bibitem[Nguyen et~al.(2025)]{nguyen2025}
+Nguyen, T.\ H., et~al.\ (2025).
+EV public charging infrastructure planning in competitive markets:
+  queueing models for congestion and user behaviour.
+Preprint.
+
+\bibitem[Okada et~al.(2025)]{okada2025}
+Okada, K., et~al.\ (2025).
+Joint optimization of EV charging station location and routing via
+  quadratic unconstrained binary optimization for quantum annealers.
+Preprint.
+
+\bibitem[Silva et~al.(2025)]{silva2025}
+Silva, J., et~al.\ (2025).
+Causal spillover effects of EV charging station deployment on local
+  business visitation patterns.
+Preprint.
+
+\bibitem[Yuan et~al.(2025a)]{yuan2025_fairness}
+Yuan, Z., et~al.\ (2025a).
+Fairness-oriented charging station location optimization driven by deep
+  reinforcement learning.
+Preprint.
+
+\bibitem[Yuan et~al.(2025b)]{yuan2025b}
+Yuan, W., et~al.\ (2025b).
+Demand-driven multi-objective planning model for city-scale EV charging
+  infrastructure capacity allocation: case of Chongqing, China.
+Preprint.
+
+\bibitem[Zheng et~al.(2025)]{zheng2025}
+Zheng, Y., et~al.\ (2025).
+Integrated investment and charging assignment optimization under
+  spatial--temporal demand dynamics.
+Preprint.
+
+\bibitem[Zhong et~al.(2025)]{zhong2025}
+Zhong, Z., et~al.\ (2025).
+Optimizing electric bus charging station locations: an integrated
+  land-use and transportation approach.
+Preprint.
+
+% ── Chapter 7 (Preliminary Study) references ─────────────────────────
+\input{ch7_bibitems}
+
+\end{thebibliography}
+
+\end{document}

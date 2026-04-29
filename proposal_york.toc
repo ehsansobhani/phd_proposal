@@ -1,0 +1,65 @@
+\contentsline {section}{Abstract}{i}{Doc-Start}%
+\contentsline {section}{List of Tables}{v}{Doc-Start}%
+\contentsline {section}{\numberline {1}Purpose and Research Goals}{1}{section.1}%
+\contentsline {section}{\numberline {2}Systematic Review Methodology}{2}{section.2}%
+\contentsline {section}{\numberline {3}Literature Review}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Overview and Thematic Organization}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Spatial Optimization for Charging Station Placement}{4}{subsection.3.2}%
+\contentsline {paragraph}{MILP and bilevel formulations.}{4}{paragraph*.1}%
+\contentsline {paragraph}{Mobile and joint fixed-mobile CS planning.}{5}{paragraph*.2}%
+\contentsline {paragraph}{Data-driven and machine-learning approaches.}{5}{paragraph*.3}%
+\contentsline {paragraph}{Joint routing and placement.}{6}{paragraph*.4}%
+\contentsline {paragraph}{Geographic and regulatory contexts.}{7}{paragraph*.5}%
+\contentsline {subsection}{\numberline {3.3}Utilization Modelling and Demand Forecasting}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Equity Planning and Environmental Justice}{8}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Phased and Sequential Deployment}{10}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Meso--Micro Scale Integration}{11}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Review and Synthesis Studies}{12}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Comprehensive Literature Clustering Table}{13}{subsection.3.8}%
+\contentsline {section}{\numberline {4}Gap Analysis}{15}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Gap 1: Misaligned Spatial Units (133 papers with partial evidence)}{15}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Gap 2: Absence of Zoning Impact Analysis (5 papers)}{15}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Gap 3: Equity and Utilization Treated Separately (14 papers address both)}{16}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Gap 4: Static Optimization Dominance (44 papers address phasing)}{16}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Gap 5: Missing Meso-to-Micro Integration (11 papers)}{16}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Research Questions}{17}{section.5}%
+\contentsline {section}{\numberline {6}Proposed Research Framework}{18}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Overview}{18}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Stage A: Mobility-Corridor Spatial Unit Construction and Zoning Schema Comparison (RQ1)}{18}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Stage B: Joint Equity-Utilization Adaptive Phased Rollout Optimization (RQ2, RQ3)}{19}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Stage C: Meso-to-Micro Site Translation Protocol (RQ4)}{19}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Data Requirements and Study Area}{20}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Dissertation Chapter Outline}{20}{subsection.6.6}%
+\contentsline {section}{\numberline {7}Preliminary Study}{22}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Rethinking Spatial Units in BEV Fast Charging Planning: A Meso-Level Mobility-Based Approach}{22}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Introduction}{22}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Literature Review}{27}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Methodology}{29}{subsection.7.4}%
+\contentsline {subsubsection}{\numberline {7.4.1}Preliminaries}{29}{subsubsection.7.4.1}%
+\contentsline {subsubsection}{\numberline {7.4.2}From centrelines to arterial zones}{32}{subsubsection.7.4.2}%
+\contentsline {subsubsection}{\numberline {7.4.3}From \gls {fsa}-level \gls {bev} counts to arterial zones' \gls {bev} densities}{34}{subsubsection.7.4.3}%
+\contentsline {subsubsection}{\numberline {7.4.4}Graph construction and hop distance}{37}{subsubsection.7.4.4}%
+\contentsline {subsubsection}{\numberline {7.4.5}Weighted $n$-hop smoothing}{38}{subsubsection.7.4.5}%
+\contentsline {subsubsection}{\numberline {7.4.6}Ridge paths as \gls {bev} activity backbones}{40}{subsubsection.7.4.6}%
+\contentsline {paragraph}{Ridge path extraction}{40}{paragraph*.8}%
+\contentsline {subsubsection}{\numberline {7.4.7}Graph-based proximity evaluation}{45}{subsubsection.7.4.7}%
+\contentsline {paragraph}{Charger capacity density as supply proxy}{45}{paragraph*.9}%
+\contentsline {paragraph}{Weighted proximity distance metric}{47}{paragraph*.10}%
+\contentsline {paragraph}{Proximity Evaluation Algorithm}{48}{paragraph*.11}%
+\contentsline {subsubsection}{\numberline {7.4.8}Evaluating charger–activity spatial alignment}{48}{subsubsection.7.4.8}%
+\contentsline {paragraph}{Null distribution construction}{49}{paragraph*.12}%
+\contentsline {paragraph}{Elbow analysis for convergence detection}{50}{paragraph*.13}%
+\contentsline {subsection}{\numberline {7.5}Case study}{52}{subsection.7.5}%
+\contentsline {subsubsection}{\numberline {7.5.1}Study area and datasets}{52}{subsubsection.7.5.1}%
+\contentsline {subsubsection}{\numberline {7.5.2}Arterial zone extraction}{53}{subsubsection.7.5.2}%
+\contentsline {subsubsection}{\numberline {7.5.3}Arterial zones' \gls {bev} densities}{54}{subsubsection.7.5.3}%
+\contentsline {subsubsection}{\numberline {7.5.4}Graph constraction}{56}{subsubsection.7.5.4}%
+\contentsline {paragraph}{Graph-theoretic analysis of the arterial adjacency network}{56}{paragraph*.18}%
+\contentsline {paragraph}{Ridge path extraction}{58}{paragraph*.19}%
+\contentsline {subsubsection}{\numberline {7.5.5}Proximity analysis between ridge zones and the \gls {dcfc} network}{62}{subsubsection.7.5.5}%
+\contentsline {subsection}{\numberline {7.6}Conclusion}{65}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Future directions}{66}{subsection.7.7}%
+\contentsline {section}{\numberline {8}Expected Contributions and Timeline}{67}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Expected Contributions}{67}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Research Timeline}{69}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Anticipated Publication Venues}{69}{subsection.8.3}%
