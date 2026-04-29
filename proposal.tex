@@ -394,71 +394,43 @@ The following review organizes the literature by thematic cluster, reflecting th
 Spatial optimization constitutes the dominant methodological paradigm in charging infrastructure planning research, representing the largest thematic cluster in this review. These studies apply deterministic and stochastic mathematical programming models, principally mixed-integer linear programming (MILP), bilevel optimization, flow-based facility location formulations, and reinforcement learning, to identify optimal charging station locations subject to demand coverage, budget, and network constraints. The field has produced increasingly sophisticated formulations that incorporate traffic flow, queue dynamics, and grid capacity constraints. However, the spatial unit of analysis remains almost universally fixed to administrative boundaries, and single-period static optimization remains the norm. The richness of the optimization literature stands in contrast to its limited engagement with planning-side questions of spatial unit validity, zoning compatibility, and deployment phasing. Key contributions in this area span from classical facility location formulations applied to charging networks, to modern deep reinforcement learning approaches and data-driven placement frameworks. The following papers represent the core of this literature as identified in the systematic review.
 
 
-\noindent A major barrier to wide adoption of Electric Vehicles (EVs) is the absence of reliable and equitable charging infrastructure. Poorly located charging stations create coverage gaps and slow down EV adoption, especially in underserved communities. \cite{a_two-stage_2026} proposes a two-stage stochastic mixed-integer programming model for the optimal deployment of Fixed and Mobile Charging Stations (FCSs and MCSs) across multiple zones and periods. This work addresses dissertation gaps: G1, G3, G4.
+\noindent A major barrier to wide adoption of Electric Vehicles (EVs) is the absence of reliable and equitable charging infrastructure. Poorly located charging stations create coverage gaps and slow down EV adoption, especially in underserved communities. \cite{a_two-stage_2026} proposes a two-stage stochastic mixed-integer programming model for the optimal deployment of Fixed and Mobile Charging Stations (FCSs and MCSs) across multiple zones and periods. This work addresses dissertation gaps: G1, G3, G4. \cite{joint_planning_2026} addresses joint planning of distribution systems and ev charging infrastructure using a gis-based spatial anal. This work addresses dissertation gaps: G1.
+
+The paper \cite{pricing_electric_2026} optimized charging of EVs at public locations consists of two decisions: how much energy to deliver at what times, which is continuous, and where to plug in, which is binary. This makes optimizing EV charging a MILP. This discreteness undermines traditional marginal pricing methods. This work addresses dissertation gaps: G1. The widespread adoption of BEVs holds promise for mitigating emission-related health impacts, particularly for low-income communities disproportionately affected by exposure to traffic-related air pollution. However, designing effective charging infrastructure necessitates a regional modeling approach that accounts for the inherent cross-jurisdictional nature of mobility patterns. The work \cite{regional_transportation_2026} underscores the importance of regional modeling in optimizing charging station deployment and evaluating the environmental justice implications for equity priority communities. This work addresses dissertation gaps: G1, G3, G4. Electrification of marine transport is a promising solution to reduce sector greenhouse gas emissions and operational costs. However, the large upfront cost of electric vessels and the required charging infrastructure can be a barrier to the development of this technology. \cite{simultaneous_optimization_2026} propose the optimization algorithms that jointly design the charging infrastructure and the operation of electric vessels can help to reduce these costs and make these projects viable. This work addresses dissertation gaps: G1.
+
+The transition toward sustainable and low-emission transportation in Indonesia has accelerated the adoption of EVs, especially in densely populated provinces such as West Java. \cite{strategic_planning_2026} shows that despite this progress, the distribution and capacity of Public EV Charging Stations remain uneven, creating significant gaps between vehicle growth and infrastructure readiness. This spatial imbalance threatens to slow down EV adoption and limit the effectiveness of national decarbonization targets. This work addresses dissertation gaps: G1, G2.
 
 
 
-\noindent \cite{joint_planning_2026} addresses joint planning of distribution systems and ev charging infrastructure using a gis-based spatial anal. This work addresses dissertation gaps: G1.
+\noindent As EV adoption accelerates in urban environments, optimizing charging infrastructure is vital for balancing user satisfaction, energy efficiency, and financial viability. \cite{a_2025} advances beyond static models by proposing a digital twin framework that integrates agent-based decision support with embedded optimization to dynamically simulate EV charging behaviors, infrastructure layouts, and policy responses across scenarios. Applied to a localized urban site (a university campus) in Hanoi, Vietnam, the model evaluates operational policies, EV station configurations, and renewable energy sources. This work addresses dissertation gaps: G1, G5. \cite{hybrid_optimization_2025} addresses a density-based spatial clustering and linear programming method for EV charging stati. This work addresses dissertation gaps: G1.
 
 
 
-\noindent Optimized charging of EVs at public locations consists of two decisions: how much energy to deliver at what times, which is continuous, and where to plug in, which is binary. This makes optimizing EV charging a MILP. This discreteness undermines traditional marginal pricing methods~\cite{pricing_electric_2026}. This work addresses dissertation gaps: G1.
+\noindent The adoption of EVs has significantly increased demand on both transportation and power systems, posing challenges to their stable operation. To support the growing need for EV charging, both fixed charging stations (FCSs) and mobile charging stations (MCSs) have been introduced, serving as key interfaces between the power grid and traffic network. Recognizing the importance of collaborative planning across these sectors, the paper \cite{a_joint_2025} presents a two-stage joint planning model for FCSs and MCSs, utilizing an improved alternating direction method of multipliers (ADMM) algorithm. This work addresses dissertation gaps: G1, G4.
 
 
 
-\noindent The widespread adoption of BEVs holds promise for mitigating emission-related health impacts, particularly for low-income communities disproportionately affected by exposure to traffic-related air pollution. However, designing effective charging infrastructure necessitates a regional modeling approach that accounts for the inherent cross-jurisdictional nature of mobility patterns. \cite{regional_transportation_2026} underscores the importance of regional modeling in optimizing charging station deployment and evaluating the environmental justice implications for equity priority communities. This work addresses dissertation gaps: G1, G3, G4.
+\noindent EV charging infrastructure is increasingly critical to sustainable transport systems, yet its resilience under environmental and infrastructural stress remains underexplored. \cite{a_multi-modal_2025} introduces RSERI-EV, a spatially explicit and multi-modal risk assessment framework that combines remote sensing data, open infrastructure datasets, and spatial graph analytics to evaluate the vulnerability of EV charging stations. RSERI-EV integrates diverse data layers, including flood risk maps, land surface temperature (LST) extremes, vegetation indices (NDVI), land use/land cover (LULC), proximity to electrical substations, and road accessibility to generate a composite Resilience Score. This work addresses dissertation gaps: G1, G2, G4.
 
 
 
-\noindent Electrification of marine transport is a promising solution to reduce sector greenhouse gas emissions and operational costs. However, the large upfront cost of electric vessels and the required charging infrastructure can be a barrier to the development of this technology. Optimization algorithms that jointly design the charging infrastructure and the operation of electric vessels can help to reduce these costs and make these projects viable~\cite{simultaneous_optimization_2026}. This work addresses dissertation gaps: G1.
+\noindent The rapid adoption of EVs has driven a strong need for optimizing locations of electric vehicle charging stations (EVCSs). Previous methods for locating EVCSs rely on statistical and optimization models, but these methods have limitations in capturing complex nonlinear relationships and spatial dependencies among factors influencing EVCS locations. To address this research gap and better understand the spatial impacts of urban activities on EVCS placement, the study \cite{a_spatially_2025} presents a spatially aware machine learning (SAML) method that combines a multi-layer perceptron (MLP) model with a spatial loss function to optimize EVCS sites. This work addresses dissertation gaps: G1. \cite{a_two-stage_2025} addresses a two-stage optimization framework for ev charging station planning considering investment cost and . This work addresses dissertation gaps: G1. The shift towards EVs is crucial for establishing sustainable and low-emission urban transportation systems. However, the success of this transition depends on the strategic placement of the charging infrastructure. \cite{a_united_2025} addresses the challenge of optimizing charging station locations in dense urban environments while balancing efficiency with spatial accessibility. This work addresses dissertation gaps: G1, G3.
 
 
 
-\noindent The transition toward sustainable and low-emission transportation in Indonesia has accelerated the adoption of EVs, especially in densely populated provinces such as West Java. Despite this progress, the distribution and capacity of Public EV Charging Stations (EVCS) remain uneven, creating significant gaps between vehicle growth and infrastructure readiness. This spatial imbalance threatens to slow down EV adoption and limit the effectiveness of national decarbonization targets~\cite{strategic_planning_2026}. This work addresses dissertation gaps: G1, G2.
+\noindent \cite{an_exact_2025} examines EV charging station placement through a bi-level optimization model, where the upper-level planner maximizes net revenue by selecting station locations under budget constraints, while EV users at the lower level choose routes and charging stations to minimize travel and charging costs. To account for range anxiety, we construct a battery-expanded network and apply a shortest path algorithm with Frank-Wolfe traffic assignment. Our primary contribution is developing the first exact solution algorithm for large scale EV charging station placement problems. This work addresses dissertation gaps: G1.
 
 
 
-\noindent As EV adoption accelerates in urban environments, optimizing charging infrastructure is vital for balancing user satisfaction, energy efficiency, and financial viability. \cite{a_2025} advances beyond static models by proposing a digital twin framework that integrates agent-based decision support with embedded optimization to dynamically simulate EV charging behaviors, infrastructure layouts, and policy responses across scenarios. Applied to a localized urban site (a university campus) in Hanoi, Vietnam, the model evaluates operational policies, EV station configurations, and renewable energy sources. This work addresses dissertation gaps: G1, G5.
+\noindent \cite{analyzing_locational_2025} focuses on analyzing locational inequalities in the placement of EVCSs using machi. This work addresses dissertation gaps: G1.
 
 
 
-\noindent \cite{hybrid_optimization_2025} addresses a density-based spatial clustering and linear programming method for EV charging stati. This work addresses dissertation gaps: G1.
+\noindent Understanding the economic impacts of the placement of EVCSs is crucial for planning infrastructure systems that benefit the broader community. Theoretical models have been used to predict human behavior during charging events, however, these models have often neglected the complexity of trip patterns, and have underestimated the real-world impacts of such infrastructure on the local economy. \cite{causal_spillover_2025} designs a quasi-experiment using mobile phone GPS location and EVCS deployment history data to analyze the causal impact of EVCS placement on visitation patterns to businesses. This work addresses dissertation gaps: G1, G4.
 
 
 
-\noindent The widespread adoption of EVs has significantly increased demand on both transportation and power systems, posing challenges to their stable operation. To support the growing need for EV charging, both fixed charging stations (FCSs) and mobile charging stations (MCSs) have been introduced, serving as key interfaces between the power grid and traffic network. Recognizing the importance of collaborative planning across these sectors, the paper \cite{a_joint_2025} presents a two-stage joint planning model for FCSs and MCSs, utilizing an improved alternating direction method of multipliers (ADMM) algorithm. This work addresses dissertation gaps: G1, G4.
-
-
-
-\noindent EV charging infrastructure is increasingly critical to sustainable transport systems, yet its resilience under environmental and infrastructural stress remains underexplored. In this paper, the we \cite{a_multi-modal_2025} introduce RSERI-EV, a spatially explicit and multi-modal risk assessment framework that combines remote sensing data, open infrastructure datasets, and spatial graph analytics to evaluate the vulnerability of EV charging stations. RSERI-EV integrates diverse data layers, including flood risk maps, land surface temperature (LST) extremes, vegetation indices (NDVI), land use/land cover (LULC), proximity to electrical substations, and road accessibility to generate a composite Resilience Score. This work addresses dissertation gaps: G1, G2, G4.
-
-
-
-\noindent The rapid adoption of EVs has driven a strong need for optimizing locations of electric vehicle charging stations (EVCSs). Previous methods for locating EVCSs rely on statistical and optimization models, but these methods have limitations in capturing complex nonlinear relationships and spatial dependencies among factors influencing EVCS locations. To address this research gap and better understand the spatial impacts of urban activities on EVCS placement, the study \cite{a_spatially_2025} presents a spatially aware machine learning (SAML) method that combines a multi-layer perceptron (MLP) model with a spatial loss function to optimize EVCS sites. This work addresses dissertation gaps: G1.
-
-
-
-\noindent \cite{a_two-stage_2025} addresses a two-stage optimization framework for ev charging station planning considering investment cost and . This work addresses dissertation gaps: G1.
-
-
-
-\noindent The shift towards EVs is crucial for establishing sustainable and low-emission urban transportation systems. However, the success of this transition depends on the strategic placement of the charging infrastructure. \cite{a_united_2025} addresses the challenge of optimizing charging station locations in dense urban environments while balancing efficiency with spatial accessibility. This work addresses dissertation gaps: G1, G3.
-
-
-
-\noindent \cite{an_exact_2025} addresses EV charging station placement through a bi-level optimization model, where the upper-level planner maximizes net revenue by selecting station locations under budget constraints, while EV users at the lower level choose routes and charging stations to minimize travel and charging costs. To account for range anxiety, we construct a battery-expanded network and apply a shortest path algorithm with Frank-Wolfe traffic assignment. Our primary contribution is developing the first exact solution algorithm for large scale EV charging station placement problems. This work addresses dissertation gaps: G1.
-
-
-
-\noindent \cite{analyzing_locational_2025} addresses analyzing locational inequalities in the placement of EVCSs using machi. This work addresses dissertation gaps: G1.
-
-
-
-\noindent Understanding the economic impacts of the placement of EVCSs is crucial for planning infrastructure systems that benefit the broader community. Theoretical models have been used to predict human behavior during charging events, however, these models have often neglected the complexity of trip patterns, and have underestimated the real-world impacts of such infrastructure on the local economy. In this paper, the we \cite{causal_spillover_2025} design a quasi-experiment using mobile phone GPS location and EVCS deployment history data to analyze the causal impact of EVCS placement on visitation patterns to businesses. This work addresses dissertation gaps: G1, G4.
-
-
-
-\noindent The widespread adoption of EVs in recent years has necessitated the development of effective charging infrastructures. However, charging infrastructure expansion is a multifaceted problem that requires careful consideration of the existing infrastructure, spatiotemporal distribution of charging demands, power-grid capacity, and budget constraints. To approach this complex problem, the we \cite{charge-map_an_2025} present charge-map , a data-driven simulation-optimization framework, focused on ensuring meaningful charging experience for individual EV owners. This work addresses dissertation gaps: G1, G4.
+\noindent The charging infrastructure expansion is a multifaceted problem that requires careful consideration of the existing infrastructure, spatiotemporal distribution of charging demands, power-grid capacity, and budget constraints. To approach this complex problem, \cite{charge-map_an_2025} presents charge-map , a data-driven simulation-optimization framework, focused on ensuring meaningful charging experience for individual EV owners. This work addresses dissertation gaps: G1, G4.
 
 
 
@@ -466,31 +438,31 @@ Spatial optimization constitutes the dominant methodological paradigm in chargin
 
 
 
-\noindent \cite{data-driven_ev_2025} addresses data-driven ev charging infrastructure with uncertainty based on a spatial--temporal flow-driven (stf. This work addresses dissertation gaps: G1, G4.
+\noindent \cite{data-driven_ev_2025} considers data-driven EV charging infrastructure with uncertainty based on a spatial-temporal flow-driven. This work addresses dissertation gaps: G1, G4.
 
 
 
-\noindent \cite{data-driven_optimization_2025} addresses the critical challenge of optimizing EVCS placement through a novel data-driven methodology employing causal discovery techniques. While traditional approaches prioritize economic factors or power grid constraints, they often neglect empirical charging patterns that ultimately determine station utilization. We analyze extensive charging data from Palo Alto and Boulder (337,344 events across 100 stations) to uncover latent relationships between station characteristics and utilization. This work addresses dissertation gaps: G1.
+\noindent \cite{data-driven_optimization_2025} studies the critical challenge of optimizing EVCS placement through a novel data-driven methodology employing causal discovery techniques. While traditional approaches prioritize economic factors or power grid constraints, they often neglect empirical charging patterns that ultimately determine station utilization. We analyze extensive charging data from Palo Alto and Boulder (337,344 events across 100 stations) to uncover latent relationships between station characteristics and utilization. This work addresses dissertation gaps: G1.
 
 
 
-\noindent \cite{electric_vehicle_2025} addresses EV charging planning: a complex systems perspective. This work addresses dissertation gaps: G1, G3.
+\noindent \cite{electric_vehicle_2025} focuses on EV charging planning: a complex systems perspective. This work addresses dissertation gaps: G1, G3.
 
 
 
-\noindent \cite{explainable_and_2025} addresses explainable and context-aware graph neural networks for dynamic EV route optimization . This work addresses dissertation gaps: G1.
+\noindent \cite{explainable_and_2025} proposes explainable and context-aware graph neural networks for dynamic EV route optimization . This work addresses dissertation gaps: G1.
 
 
 
-\noindent \cite{planning_future_2025} addresses fairness-oriented charging station location optimization driven by deep reinforcement learning. This work addresses dissertation gaps: G1, G3.
+\noindent \cite{planning_future_2025} evaluates fairness-oriented charging station location optimization driven by deep reinforcement learning. This work addresses dissertation gaps: G1, G3.
 
 
 
-\noindent \cite{hybrid_optimization_2025} addresses hybrid optimization of ev charging station placement and pricing using bender?s decomposition and ns. This work addresses dissertation gaps: G1.
+\noindent \cite{hybrid_optimization_2025} examines hybrid optimization of EV charging station placement and pricing using bender's decomposition. This work addresses dissertation gaps: G1.
 
 
 
-\noindent Optimal routing problems of EVs have attracted much attention in recent years, and installation of charging stations is an important issue for EVs. Hence, the we \cite{joint_optimization_2025} focus on the joint optimization of the location of charging stations and the routing of EVs. When routing problems are formulated in the form of quadratic unconstrained binary optimization (QUBO), specialized solvers such as quantum annealer are expected to provide optimal solutions with high speed and accuracy. This work addresses dissertation gaps: G1, G4.
+\noindent Optimal routing problems of EVs have attracted much attention in recent years, and installation of charging stations is an important issue for EVs. Hence, \cite{joint_optimization_2025} focuses on the joint optimization of the location of charging stations and the routing of EVs. When routing problems are formulated in the form of quadratic unconstrained binary optimization (QUBO), specialized solvers such as quantum annealer are expected to provide optimal solutions with high speed and accuracy. This work addresses dissertation gaps: G1, G4.
 
 
 
@@ -498,7 +470,7 @@ Spatial optimization constitutes the dominant methodological paradigm in chargin
 
 
 
-\noindent \cite{location_and_2025} addresses location and capacity optimization of ev charging stations using genetic algorithms and fuzzy analyt. This work addresses dissertation gaps: G1.
+\noindent \cite{location_and_2025} addresses location and capacity optimization of EV charging stations using genetic algorithms and fuzzy analyt. This work addresses dissertation gaps: G1.
 
 
 
@@ -506,19 +478,19 @@ Spatial optimization constitutes the dominant methodological paradigm in chargin
 
 
 
-\noindent Electrifying demand-responsive transport systems need to plan the charging infrastructure carefully, considering the trade-offs of charging efficiency and charging infrastructure costs. Earlier studies assume a fully electrified fleet and overlook the planning issue in the transition period. \cite{optimal_mixed_2025} addresses the joint fleet size and charging infrastructure planning for a demand-responsive feeder service under stochastic demand, given a user-defined targeted CO2 emission reduction policy. This work addresses dissertation gaps: G1.
+\noindent Electrifying demand-responsive transport systems need to plan the charging infrastructure carefully, considering the trade-offs of charging efficiency and charging infrastructure costs. Earlier studies assume a fully electrified fleet and overlook the planning issue in the transition period. \cite{optimal_mixed_2025} discuses the joint fleet size and charging infrastructure planning for a demand-responsive feeder service under stochastic demand, given a user-defined targeted CO2 emission reduction policy. This work addresses dissertation gaps: G1.
 
 
 
-\noindent With the rapid expansion of the EV market, optimizing the distribution of charging stations has attracted increasing attention. Unlike internal combustion engine vehicles, EVs are typically charged at the end of a trip rather than during transit. Therefore, analyzing EV users? charging preferences based on their activity--travel patterns is essential~\cite{optimization_of_2025}. This work addresses dissertation gaps: G1.
+\noindent With the rapid expansion of the EV market, optimizing the distribution of charging stations has attracted increasing attention. Unlike internal combustion engine vehicles, EVs are typically charged at the end of a trip rather than during transit. \cite{optimization_of_2025} analyzes EV users charging preferences based on their activity-travel patterns is essential. This work addresses dissertation gaps: G1.
 
 
 
-\noindent \cite{optimizing_electric_2025} addresses optimizing electric bus charging station locations: an integrated land-use and transportation approa. This work addresses dissertation gaps: G1.
+\noindent \cite{optimizing_electric_2025} focuses on optimizing electric bus charging station locations: an integrated land-use and transportation approach. This work addresses dissertation gaps: G1.
 
 
 
-\noindent The rapid rise of EVs places unprecedented stress on both urban mobility systems and low-voltage power grids. Designing battery swapping and charging networks that are cost-efficient, grid-compatible, and sustainable is therefore a pressing yet complex challenge: service providers must jointly optimize station locations, battery inventory, and grid interaction under high-dimensional uncertainty. \cite{optimizing_urban_2025} develop an integrated location-inventory-grid model and employ a continuous approximation approach to overcome the intractability of discrete formulations. This work addresses dissertation gaps: G1, G5.
+\noindent The rapid rise of EVs places unprecedented stress on both urban mobility systems and low-voltage power grids. Designing battery swapping and charging networks that are cost-efficient, grid-compatible, and sustainable is therefore a pressing yet complex challenge: service providers must jointly optimize station locations, battery inventory, and grid interaction under high-dimensional uncertainty. \cite{optimizing_urban_2025} develops an integrated location-inventory-grid model and employ a continuous approximation approach to overcome the intractability of discrete formulations. This work addresses dissertation gaps: G1, G5.
 
 
 
@@ -526,43 +498,27 @@ Spatial optimization constitutes the dominant methodological paradigm in chargin
 
 
 
-\noindent \cite{analyzing_locational_2025} addresses predicting optimal placement of EV charge stations using machine learning: a case stud. This work addresses dissertation gaps: G1.
+\noindent \cite{analyzing_locational_2025} targets predicting optimal placement of EV charge stations using machine learning: a case stud. This work addresses dissertation gaps: G1. Fixed-location charging stations often suffer from underutilization or congestion due to fluctuating demand, while mobile chargers offer flexibility by relocating as needed. \cite{reinforcement_learning_2025} studies the optimal planning and operation of hybrid charging infrastructures that combine both fixed and mobile chargers within urban road networks. This work addresses dissertation gaps: G1. The paper \cite{robust_charging_2025} proposes a robust charging station location and routing-scheduling problem (E-RCRSP) in an inter-modal transit system, presenting a novel solution to traditional electric bus scheduling. The system integrates regular bus services, offering full-line or sectional coverage, and short-turning services. Considering the fast-charging technology with quick top-ups, we jointly optimize charging station locations and capacities, fleet sizing, as well as routing-scheduling for E-MAUs under demand uncertainty. This work addresses dissertation gaps: G1.
+there is a notable gap in comprehensive accessibility metrics that integrate the mobility of the users. \cite{trajectory-integrated_accessibility_2025} introduces a novel accessibility metric, termed Trajectory-Integrated Public EVCS Accessibility (TI-acs), and uses it to assess public EVCS accessibility for approximately 6 million residents in the San Francisco Bay Area based on detailed individual trajectory data in one week. This work addresses dissertation gaps: G1.
 
 
 
-\noindent The success of vehicle electrification relies on efficient and adaptable charging infrastructure. Fixed-location charging stations often suffer from underutilization or congestion due to fluctuating demand, while mobile chargers offer flexibility by relocating as needed. \cite{reinforcement_learning_2025} studies the optimal planning and operation of hybrid charging infrastructures that combine both fixed and mobile chargers within urban road networks. This work addresses dissertation gaps: G1.
+\noindent The development and popularization of new energy vehicles have become a global consensus. The shortage and unreasonable layout of EV charging infrastructure have severely restricted the development of EVs. In the literature \cite{a_multi-objective_2024}, many methods can be used to optimize the layout of charging stations for producing good layout designs. This work addresses dissertation gaps: G1, G4, G5.
 
 
 
-\noindent Problem definition: Motivated by global electrification targets and the advent of electric modular autonomous units (E-MAUs), the paper \cite{robust_charging_2025} addresses a robust charging station location and routing-scheduling problem (E-RCRSP) in an inter-modal transit system, presenting a novel solution to traditional electric bus scheduling. The system integrates regular bus services, offering full-line or sectional coverage, and short-turning services. Considering the fast-charging technology with quick top-ups, we jointly optimize charging station locations and capacities, fleet sizing, as well as routing-scheduling for E-MAUs under demand uncertainty. This work addresses dissertation gaps: G1.
+\noindent Effective charging station planning must account for multiple factors, including infrastructure installation costs, charging demand distribution, and service coverage levels. \cite{a_multi-objective_2024} highlights the advantages of employing a multi-objective optimization framework based on NSGA-II to balance these competing objectives. This work addresses dissertation gaps: G1 and G2.
+
+
+\noindent \cite{a_particle_2024} addresses a particle swarm optimizer-based optimization approach for locating EVs charging statiions. This work addresses dissertation gaps: G1.
 
 
 
-\noindent EV charging infrastructure is crucial for advancing EV adoption, managing charging loads, and ensuring equitable transportation electrification. However, there remains a notable gap in comprehensive accessibility metrics that integrate the mobility of the users. \cite{trajectory-integrated_accessibility_2025} introduces a novel accessibility metric, termed Trajectory-Integrated Public EVCS Accessibility (TI-acs), and uses it to assess public EVCS accessibility for approximately 6 million residents in the San Francisco Bay Area based on detailed individual trajectory data in one week. This work addresses dissertation gaps: G1.
+\noindent \cite{a_quantum_2024} highlights that determining optimal charging station locations within large-scale transportation networks constitutes a well-known NP-hard combinatorial optimization problem, as the solution space grows exponentially with the number of candidate charging station locations. This work addresses dissertation gap: G1. \cite{allocate_electric_2024} proposes a two-layer planning method for location and capacity determination of public EV charging stations. This work addresses dissertation gaps: G1.
 
 
 
-\noindent The development and popularization of new energy vehicles have become a global consensus. The shortage and unreasonable layout of EV charging infrastructure (EVCI) have severely restricted the development of EVs. In the literature, many methods can be used to optimize the layout of charging stations (CSs) for producing good layout designs~\cite{a_multi-objective_2024}. This work addresses dissertation gaps: G1, G4, G5.
-
-
-
-\noindent The planning of charging infrastructure is crucial to developing EVs. Planning for charging stations requires considering several variables, including building costs, charging demand, and coverage levels. It might be advantageous to use a multi-objective optimization method based on the NSGA-II~\cite{a_multi-objective_2024}. This work addresses dissertation gaps: G1, G2.
-
-
-
-\noindent \cite{a_particle_2024} addresses a particle swarm optimizer-based optimization approach for locating EVs charging stati. This work addresses dissertation gaps: G1.
-
-
-
-\noindent EVs play a significant role in enhancing the sustainability of transportation systems. However, their widespread adoption is hindered by inadequate public charging infrastructure, particularly to support long-distance travel. Identifying optimal charging station locations in large transportation networks presents a well-known NP-hard combinatorial optimization problem, as the search space grows exponentially with the number of potential charging station locations~\cite{a_quantum_2024}. This work addresses dissertation gaps: G1.
-
-
-
-\noindent \cite{allocate_electric_2024} addresses a two-layer planning method for location and capacity determination of public EV charg. This work addresses dissertation gaps: G1.
-
-
-
-\noindent \cite{a_multi-objective_2024} addresses advancing urban EVCSs: ai-driven day-ahead optimization of pricing and . This work addresses dissertation gaps: G1.
+\noindent \cite{a_multi-objective_2024} addresses advancing urban EVCSs: AI-driven day-ahead optimization of pricing. This work addresses dissertation gaps: G1.
 
 
 
